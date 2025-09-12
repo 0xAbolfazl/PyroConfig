@@ -13,6 +13,7 @@ from datetime import timedelta, datetime
 import re
 from typing import List
 from urllib.parse import urlparse, parse_qs
+import random
 
 SESSION = os.getenv('SESSION_STRING')
 API_ID = int(os.getenv('API_ID'))
@@ -22,6 +23,7 @@ LOGS = 'Logs/logs.txt'
 CONFIG_FOLDER = 'Configs'
 LOGS_FOLDER = 'Logs'
 CHANNELS_LOG = 'Logs/channels_log.json'
+CONFIG_CHANNEL = "@mr_hygen"
 
 CONFIG_PATTERNS = {
     "vless": r"vless://[^\s]+",
@@ -167,6 +169,14 @@ async def fetch_configs_and_proxies(client, channel):
         logger.error(f"Failed to fetch from {channel}: {str(e)}")
         return channel_configs, channel_proxies, False
 
+def format_proxies_in_rows(proxies, per_row=4):
+    lines = []
+    for i in range(0, len(proxies), per_row):
+        chunk = proxies[i:i+per_row]
+        line = " | ".join([f"[Proxy {i+j+1}]({proxy})" for j, proxy in enumerate(chunk)])
+        lines.append(line)
+    return "\n".join(lines)
+
 def save_configs(configs, protocol):
     output_file = rf"Configs/{protocol}.txt"
     logger.info(f"Saving configs to {output_file}")
@@ -198,8 +208,63 @@ def save_proxies(proxies):
             f.write("No proxies found.\n")
             logger.info("No proxies found")
 
-def post_configs():
-    pass
+async def post_data_to_channel(client, all_configs, all_proxies, channel_status):
+    if not channel_status:
+        logger.warning("No channel stats available to determine the best channel.")
+        return
+
+    best_channel = None
+    best_score = -1
+    for channel, stats in channel_status.items():
+        score = stats.get("score", 0)
+        if score > best_score:
+            best_score = score
+            best_channel = channel
+
+    if not best_channel or best_score == 0:
+        logger.warning("No valid channel with configs found to post.")
+        return
+
+    channel_configs = {"vless": [], "vmess": [], "shadowsocks": [], "trojan": []}
+    channel_proxies = []
+    try:
+        temp_configs, temp_proxies, _ = await fetch_configs_and_proxies(client, best_channel)
+        for protocol in channel_configs:
+            channel_configs[protocol].extend(temp_configs[protocol])
+        channel_proxies.extend(temp_proxies)
+    except Exception as e:
+        logger.error(f"Failed to fetch configs/proxies from best channel {best_channel}: {str(e)}")
+        return
+
+    all_channel_configs = []
+    config_types = []
+    for protocol in channel_configs:
+        for config in channel_configs[protocol]:
+            all_channel_configs.append(f'{protocol.capitalize()}:::{config}')
+
+    if not all_channel_configs:
+        logger.warning(f"No configs found from the best channel {best_channel} to post.")
+        return
+
+    index = random.randint(0, len(all_channel_configs) - 1)
+    selected_config = all_channel_configs[index]
+    protocol, config = selected_config.split(':::')
+
+    message = f"{protocol} Config\n\n```{config}```"
+
+    random.shuffle(all_proxies)
+    fresh_proxies = all_proxies[:8] if len(all_proxies) >= 8 else all_proxies
+    if fresh_proxies:
+        proxies_formatted = format_proxies_in_rows(fresh_proxies, per_row=4)
+        message += "\n" + proxies_formatted
+
+    message += f"\n\n🆔 {CONFIG_CHANNEL}"
+
+    try:
+        await client.send_message(CONFIG_CHANNEL, message, parse_mode="markdown")
+        logger.info(f"Posted {protocol} config + proxies from {best_channel} to {CONFIG_CHANNEL}")
+    except Exception as e:
+        logger.error(f"Failed to post config/proxies to {CONFIG_CHANNEL}: {str(e)}")
 
 async def main():
     logger.info("Starting main function")
@@ -231,12 +296,14 @@ async def main():
                             "trojan_count": 0,
                             "proxy_count": 0,
                             "total_configs": 0,
+                            "score": 0,
                             "error": "Channel does not exist or is inaccessible"
                         }
                         continue
 
                     total_configs = sum(len(configs) for configs in channel_configs.values())
                     proxy_count = len(channel_proxies)
+                    score = total_configs + proxy_count
 
                     CHANNELS_STATUS[channel] = {
                         "vless_count": len(channel_configs["vless"]),
@@ -245,6 +312,7 @@ async def main():
                         "trojan_count": len(channel_configs["trojan"]),
                         "proxy_count": proxy_count,
                         "total_configs": total_configs,
+                        "score": score
                     }
                     for protocol in ALL_CONFIGS:
                         ALL_CONFIGS[protocol].extend(channel_configs[protocol])
@@ -268,7 +336,7 @@ async def main():
                 save_configs(ALL_CONFIGS[protocol], protocol)
                 save_proxies(ALL_PROXIES)
                 save_channel_status(CHANNELS_STATUS)
-
+                await post_data_to_channel(client, ALL_CONFIGS, ALL_PROXIES, CHANNELS_STATUS)
 
     except Exception as e:
         logger.error(f"Error in main loop: {str(e)}")
