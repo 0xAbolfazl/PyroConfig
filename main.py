@@ -5,289 +5,439 @@ import asyncio
 from telethon.sessions import StringSession
 from telethon.sync import TelegramClient
 from telethon.tl.types import Message, MessageEntityTextUrl, MessageEntityUrl
-from telethon.sessions import StringSession
 from telethon.errors import ChannelInvalidError
 from datetime import timedelta, datetime
 import re
-from typing import List
+from typing import List, Dict, Tuple
 from urllib.parse import urlparse, parse_qs
 import random
 
-SESSION = os.getenv('SESSION_STRING')
-API_ID = int(os.getenv('API_ID'))
-API_HASH = os.getenv('API_HASH')
-CHANNELS = 'channels.json'
-LOGS = 'Logs/logs.txt'
-CONFIG_FOLDER = 'Configs'
-LOGS_FOLDER = 'Logs'
-CHANNELS_LOG = 'Logs/channels_log.json'
-CONFIG_CHANNEL = "@mr_hygen"
 
-CONFIG_PATTERNS = {
-    "vless": r"vless://[^\s]+",
-    "vmess": r"vmess://[^\s]+",
-    "shadowsocks": r"ss://[^\s]+",
-    "trojan": r"trojan://[^\s]+"
-}
-PROXY_PATTERN = r'https?://t\.me/proxy\?[^\s]+'
-
-if not os.path.exists(CONFIG_FOLDER):
-    os.makedirs(CONFIG_FOLDER)
-
-if not os.path.exists(LOGS_FOLDER):
-    os.makedirs(LOGS_FOLDER)
-
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
-logger.handlers = []
-file_handler = logging.FileHandler('logs.txt', mode='w', encoding='utf-8')
-file_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
-logger.addHandler(file_handler)
-
-def load_channels():
-    '''
-    Return channel list
-    '''
-    with open(CHANNELS, 'r') as ch:
-        channels_list = json.load(ch)['all_channels']
-        logger.info(f'{len(channels_list)} Channels Loaded !')
-        return channels_list
+class TelegramConfigCollector:
+    """A class to collect and manage proxy configurations from Telegram channels."""
     
-
-
-def extract_proxies_from_message(message) -> List[str]:
-    """
-    Extrcting proxies from messages
+    def __init__(self):
+        """Initialize the Telegram config collector with environment variables and settings."""
+        self.SESSION = os.getenv('SESSION_STRING')
+        self.API_ID = int(os.getenv('API_ID'))
+        self.API_HASH = os.getenv('API_HASH')
+        self.CHANNELS_FILE = 'channels.json'
+        self.LOGS_FILE = 'Logs/logs.txt'
+        self.CONFIG_FOLDER = 'Configs'
+        self.LOGS_FOLDER = 'Logs'
+        self.CHANNELS_LOG = 'Logs/channels_log.json'
+        self.CONFIG_CHANNEL = os.getenv('CHANNEL_ID')
+        
+        # Configuration patterns for different proxy types
+        self.CONFIG_PATTERNS = {
+            "vless": r"vless://[^\s]+",
+            "vmess": r"vmess://[^\s]+",
+            "shadowsocks": r"ss://[^\s]+",
+            "trojan": r"trojan://[^\s]+"
+        }
+        
+        # Pattern to detect Telegram proxy URLs
+        self.PROXY_PATTERN = r'https?://t\.me/proxy\?[^\s]+'
+        
+        # Initialize folders and logging
+        self._setup_folders()
+        self._setup_logging()
+        
+        # Data storage
+        self.all_configs = {"vless": [], "vmess": [], "shadowsocks": [], "trojan": []}
+        self.all_proxies = []
+        self.channels_status = {}
     
-    Args:
-        message: Telegram message object
+    def _setup_folders(self):
+        """Create necessary folders if they don't exist."""
+        if not os.path.exists(self.CONFIG_FOLDER):
+            os.makedirs(self.CONFIG_FOLDER)
+        
+        if not os.path.exists(self.LOGS_FOLDER):
+            os.makedirs(self.LOGS_FOLDER)
     
-    Returns:
-        List of proxy urls
-    """
-    proxies = []
+    def _setup_logging(self):
+        """Configure logging settings."""
+        self.logger = logging.getLogger()
+        self.logger.setLevel(logging.INFO)
+        
+        # Clear any existing handlers
+        if self.logger.handlers:
+            self.logger.handlers.clear()
+        
+        # Add file handler
+        file_handler = logging.FileHandler(
+            self.LOGS_FILE, mode='w', encoding='utf-8'
+        )
+        file_handler.setFormatter(
+            logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+        )
+        self.logger.addHandler(file_handler)
     
-    if not hasattr(message, 'message') or not message.message:
-        return proxies
+    def load_channels(self) -> List[str]:
+        """
+        Load channel list from JSON file.
+        
+        Returns:
+            List of channel usernames/IDs
+        """
+        try:
+            with open(self.CHANNELS_FILE, 'r') as ch:
+                channels_list = json.load(ch)['all_channels']
+                self.logger.info(f'{len(channels_list)} Channels Loaded!')
+                return channels_list
+        except FileNotFoundError:
+            self.logger.error(f"Channels file {self.CHANNELS_FILE} not found!")
+            return []
+        except json.JSONDecodeError:
+            self.logger.error(f"Invalid JSON in {self.CHANNELS_FILE}!")
+            return []
+        except KeyError:
+            self.logger.error(f"Missing 'all_channels' key in {self.CHANNELS_FILE}!")
+            return []
     
-    text = message.message    
-    text_proxies = re.findall(PROXY_PATTERN, text)
-    proxies.extend(text_proxies)
+    def is_valid_proxy_url(self, url: str) -> bool:
+        """
+        Validate if a URL is a proper Telegram proxy URL.
+        
+        Args:
+            url: The URL to validate
+            
+        Returns:
+            True if URL is valid, False otherwise
+        """
+        if not url.startswith("https://t.me/proxy?"):
+            return False
+        
+        try:
+            # Extract and check required parameters
+            parsed = urlparse(url)
+            query_params = parse_qs(parsed.query)
+            
+            # Check for required parameters
+            required_params = ['server', 'port']
+            return all(param in query_params for param in required_params)
+        except Exception:
+            return False
     
-    if hasattr(message, 'entities') and message.entities:
-        for entity in message.entities:
-            try:
-                if isinstance(entity, (MessageEntityTextUrl, MessageEntityUrl)):
-                    # extracting url from entities
-                    if hasattr(entity, 'url') and entity.url:
-                        url = entity.url
-                    else:
-                        offset = entity.offset
-                        length = entity.length
-                        if offset + length <= len(text):
-                            url = text[offset:offset+length]
+    def extract_proxies_from_message(self, message: Message) -> List[str]:
+        """
+        Extract proxy URLs from a Telegram message.
+        
+        Args:
+            message: Telegram message object
+            
+        Returns:
+            List of proxy URLs found in the message
+        """
+        proxies = []
+        
+        if not hasattr(message, 'message') or not message.message:
+            return proxies
+        
+        text = message.message    
+        
+        # Find proxies in text using regex
+        text_proxies = re.findall(self.PROXY_PATTERN, text)
+        proxies.extend(text_proxies)
+        
+        # Extract proxies from message entities
+        if hasattr(message, 'entities') and message.entities:
+            for entity in message.entities:
+                try:
+                    if isinstance(entity, (MessageEntityTextUrl, MessageEntityUrl)):
+                        # Extract URL from entity
+                        if hasattr(entity, 'url') and entity.url:
+                            url = entity.url
                         else:
-                            continue
-                    
-                    # Validating proxies
-                    if is_valid_proxy_url(url):
-                        proxies.append(url)
+                            offset = entity.offset
+                            length = entity.length
+                            if offset + length <= len(text):
+                                url = text[offset:offset+length]
+                            else:
+                                continue
                         
-            except (IndexError, AttributeError) as e:
-                continue
-    
-    # Deleting duplicate
-    return list(dict.fromkeys(proxies)) 
-
-def is_valid_proxy_url(url: str) -> bool:
-    """
-    Proxy Validating
-    
-    Args:
-        url
-    
-    Returns:
-        bool: True if url is vaild and False if not
-    """
-    if not url.startswith("https://t.me/proxy?"):
-        return False
-    
-    try:
-        # Extracting requirements params
-        parsed = urlparse(url)
-        query_params = parse_qs(parsed.query)
+                        # Validate the proxy URL
+                        if self.is_valid_proxy_url(url):
+                            proxies.append(url)
+                except (IndexError, AttributeError) as e:
+                    continue
         
-        # Checking requirements params
-        required_params = ['server', 'port']
-        return all(param in query_params for param in required_params)
-        
-    except Exception:
-        return False
+        # Remove duplicates while preserving order
+        return list(dict.fromkeys(proxies))
     
-async def fetch_configs_and_proxies(client, channel):
-    channel_configs = {"vless": [], "vmess": [], "shadowsocks": [], "trojan": []}
-    channel_proxies = []
-    try:
-        await client.get_entity(channel)
-    except ChannelInvalidError as e:
-        logger.error(f"Channel {channel} does not exist or is inaccessible: {str(e)}")
-        return channel_configs, channel_proxies, False
-
-    try:
-        message_count = 0
-        today = datetime.now().date()
-        last_day = today - timedelta(days=1)
-
-        async for message in client.iter_messages(channel, limit=200):
-            message_count += 1
-            if message.date:
+    async def fetch_configs_and_proxies(self, client: TelegramClient, channel: str) -> Tuple[Dict[str, List[str]], List[str], bool]:
+        """
+        Fetch configurations and proxies from a Telegram channel.
+        
+        Args:
+            client: Authenticated Telegram client
+            channel: Channel username/ID to fetch from
+            
+        Returns:
+            Tuple of (configs_dict, proxies_list, success_status)
+        """
+        channel_configs = {"vless": [], "vmess": [], "shadowsocks": [], "trojan": []}
+        channel_proxies = []
+        
+        # Verify channel accessibility
+        try:
+            await client.get_entity(channel)
+        except ChannelInvalidError as e:
+            self.logger.error(f"Channel {channel} does not exist or is inaccessible: {str(e)}")
+            return channel_configs, channel_proxies, False
+        
+        try:
+            message_count = 0
+            today = datetime.now().date()
+            last_day = today - timedelta(days=1)
+            
+            # Iterate through recent messages
+            async for message in client.iter_messages(channel, limit=200):
+                message_count += 1
+                
+                if not (message and hasattr(message, 'date') and message.date):
+                    continue
+                
                 message_date = message.date.date()
+                
+                # Skip messages older than yesterday
                 if message_date not in [today] and message_date < last_day:
                     continue
+                
                 if isinstance(message, Message) and message.message:
                     text = message.message
-                    # Extracting configs 
-                    for protocol, config_pattern in CONFIG_PATTERNS.items():
+                    
+                    # Extract configurations for each protocol
+                    for protocol, config_pattern in self.CONFIG_PATTERNS.items():
                         matches = re.findall(config_pattern, text)
                         if matches:
-                            logger.info(f"Found {len(matches)} {protocol} configs in message from {channel}")
+                            self.logger.info(f"Found {len(matches)} {protocol} configs in message from {channel}")
                             channel_configs[protocol].extend(matches)
-                    # Extracting proxies
+                    
+                    # Extract proxies from recent messages
                     if message_date >= last_day:
-                        proxy_links = extract_proxies_from_message(message)
+                        proxy_links = self.extract_proxies_from_message(message)
                         if proxy_links:
-                            logger.info(f"Found {len(proxy_links)} proxies in message from {channel}")
+                            self.logger.info(f"Found {len(proxy_links)} proxies in message from {channel}")
                             channel_proxies.extend(proxy_links)
-            else:
-                continue
-
-        logger.info(f"Processed {message_count} messages from {channel}, found {sum(len(configs) for configs in channel_configs.values())} configs, {len(channel_proxies)} proxies")
-        return channel_configs, channel_proxies, True
-    except Exception as e:
-        logger.error(f"Failed to fetch from {channel}: {str(e)}")
-        return channel_configs, channel_proxies, False
-
-def format_proxies_in_rows(proxies, per_row=4):
-    lines = []
-    for i in range(0, len(proxies), per_row):
-        chunk = proxies[i:i+per_row]
-        line = " | ".join([f"[Proxy {i+j+1}]({proxy})" for j, proxy in enumerate(chunk)])
-        lines.append(line)
-    return "\n".join(lines)
-
-def save_configs(configs, protocol):
-    output_file = rf"Configs/{protocol}.txt"
-    logger.info(f"Saving configs to {output_file}")
-    with open(output_file, "w", encoding="utf-8") as f:
-        if configs:
-            for config in configs:
-                f.write(config + "\n")
-            logger.info(f"Saved {len(configs)} {protocol} configs to {output_file}")
-        else:
-            f.write(f"No configs found for {protocol}\n")
-            logger.info(f"No {protocol} configs found")
-
-def save_channel_status(stats):
-    logger.info(f"Saving channel status to {CHANNELS_LOG}")
-    stats_list = [{"channel": channel, **data} for channel, data in stats.items()]
-    with open(CHANNELS_LOG, "w", encoding="utf-8") as f:
-        json.dump(stats_list, f, ensure_ascii=False, indent=4)
-    logger.info(f"Saved channel status to {CHANNELS_LOG}")
-
-def save_proxies(proxies):
-    output_file = rf"Configs/proxies.txt"
-    logger.info(f"Saving proxies to {output_file}")
-    with open(output_file, "w", encoding="utf-8") as f:
-        if proxies:
-            for proxy in proxies:
-                f.write(f"{proxy}\n")
-            logger.info(f"Saved {len(proxies)} proxies to {output_file}")
-        else:
-            f.write("No proxies found.\n")
-            logger.info("No proxies found")
-
-async def post_data_to_channel(client, all_configs, all_proxies, channel_status):
-    if not channel_status:
-        logger.warning("No channel stats available to determine the best channel.")
-        return
-
-    best_channel = None
-    best_score = -1
-    for channel, stats in channel_status.items():
-        score = stats.get("score", 0)
-        if score > best_score:
-            best_score = score
-            best_channel = channel
-
-    if not best_channel or best_score == 0:
-        logger.warning("No valid channel with configs found to post.")
-        return
-
-    channel_configs = {"vless": [], "vmess": [], "shadowsocks": [], "trojan": []}
-    channel_proxies = []
-    try:
-        temp_configs, temp_proxies, _ = await fetch_configs_and_proxies(client, best_channel)
-        for protocol in channel_configs:
-            channel_configs[protocol].extend(temp_configs[protocol])
-        channel_proxies.extend(temp_proxies)
-    except Exception as e:
-        logger.error(f"Failed to fetch configs/proxies from best channel {best_channel}: {str(e)}")
-        return
-
-    all_channel_configs = []
-    config_types = []
-    for protocol in channel_configs:
-        for config in channel_configs[protocol]:
-            all_channel_configs.append(f'{protocol.capitalize()}:::{config}')
-
-    if not all_channel_configs:
-        logger.warning(f"No configs found from the best channel {best_channel} to post.")
-        return
-
-    index = random.randint(0, len(all_channel_configs) - 1)
-    selected_config = all_channel_configs[index]
-    protocol, config = selected_config.split(':::')
-
-    message = f"{protocol} Config\n\n```{config}```"
-
-    random.shuffle(all_proxies)
-    fresh_proxies = all_proxies[:8] if len(all_proxies) >= 8 else all_proxies
-    if fresh_proxies:
-        proxies_formatted = format_proxies_in_rows(fresh_proxies, per_row=4)
-        message += "\n" + proxies_formatted
-
-    message += f"\n\n🆔 {CONFIG_CHANNEL}"
-
-    try:
-        await client.send_message(CONFIG_CHANNEL, message, parse_mode="markdown")
-        logger.info(f"Posted {protocol} config + proxies from {best_channel} to {CONFIG_CHANNEL}")
-    except Exception as e:
-        logger.error(f"Failed to post config/proxies to {CONFIG_CHANNEL}: {str(e)}")
-
-async def main():
-    logger.info("Starting main function")
+            
+            self.logger.info(
+                f"Processed {message_count} messages from {channel}, "
+                f"found {sum(len(configs) for configs in channel_configs.values())} configs, "
+                f"{len(channel_proxies)} proxies"
+            )
+            return channel_configs, channel_proxies, True
+        
+        except Exception as e:
+            self.logger.error(f"Failed to fetch from {channel}: {str(e)}")
+            return channel_configs, channel_proxies, False
     
-    TELEGRAM_CHANNELS = load_channels()
-    session = StringSession(SESSION)
-    CHANNELS_STATUS = {}
-    ALL_CONFIGS = {"vless": [], "vmess": [], "shadowsocks": [], "trojan": []}
-    ALL_PROXIES = []
-
-
-    try:
-        async with TelegramClient(session, API_ID, API_HASH) as client:
-            if not await client.is_user_authorized():
-                logger.error("Invalid session")
-                print("Invalid session")
-                return
-
-            for channel in TELEGRAM_CHANNELS:
-                logger.info(f"Fetching configs/proxies from {channel}...")
-                print(f"Fetching configs/proxies from {channel}...")
-                try:
-                    channel_configs, channel_proxies, is_valid = await fetch_configs_and_proxies(client, channel)
-                    if not is_valid:
-                        CHANNELS_STATUS[channel] = {
+    def format_proxies_in_rows(self, proxies: List[str], per_row: int = 4) -> str:
+        """
+        Format proxy URLs into markdown rows.
+        
+        Args:
+            proxies: List of proxy URLs
+            per_row: Number of proxies per row
+            
+        Returns:
+            Formatted string with proxies in rows
+        """
+        lines = []
+        for i in range(0, len(proxies), per_row):
+            chunk = proxies[i:i+per_row]
+            line = " | ".join([f"[Proxy {i+j+1}]({proxy})" for j, proxy in enumerate(chunk)])
+            lines.append(line)
+        return "\n".join(lines)
+    
+    def save_configs(self, configs: List[str], protocol: str):
+        """
+        Save configurations to a file.
+        
+        Args:
+            configs: List of configuration strings
+            protocol: Protocol name (vless, vmess, etc.)
+        """
+        output_file = os.path.join(self.CONFIG_FOLDER, f"{protocol}.txt")
+        self.logger.info(f"Saving configs to {output_file}")
+        
+        with open(output_file, "w", encoding="utf-8") as f:
+            if configs:
+                for config in configs:
+                    f.write(config + "\n")
+                self.logger.info(f"Saved {len(configs)} {protocol} configs to {output_file}")
+            else:
+                f.write(f"No configs found for {protocol}\n")
+                self.logger.info(f"No {protocol} configs found")
+    
+    def save_proxies(self, proxies: List[str]):
+        """Save proxy URLs to a file."""
+        output_file = os.path.join(self.CONFIG_FOLDER, "proxies.txt")
+        self.logger.info(f"Saving proxies to {output_file}")
+        
+        with open(output_file, "w", encoding="utf-8") as f:
+            if proxies:
+                for proxy in proxies:
+                    f.write(f"{proxy}\n")
+                self.logger.info(f"Saved {len(proxies)} proxies to {output_file}")
+            else:
+                f.write("No proxies found.\n")
+                self.logger.info("No proxies found")
+    
+    def save_channel_status(self):
+        """Save channel status information to a JSON file."""
+        self.logger.info(f"Saving channel status to {self.CHANNELS_LOG}")
+        
+        stats_list = [
+            {"channel": channel, **data} 
+            for channel, data in self.channels_status.items()
+        ]
+        
+        with open(self.CHANNELS_LOG, "w", encoding="utf-8") as f:
+            json.dump(stats_list, f, ensure_ascii=False, indent=4)
+        
+        self.logger.info(f"Saved channel status to {self.CHANNELS_LOG}")
+    
+    async def post_data_to_channel(self, client: TelegramClient):
+        """
+        Post collected data to the configured channel.
+        
+        Args:
+            client: Authenticated Telegram client
+        """
+        if not self.channels_status:
+            self.logger.warning("No channel stats available to determine the best channel.")
+            return
+        
+        # Find the channel with the highest score
+        best_channel = None
+        best_score = -1
+        
+        for channel, stats in self.channels_status.items():
+            score = stats.get("score", 0)
+            if score > best_score:
+                best_score = score
+                best_channel = channel
+        
+        if not best_channel or best_score == 0:
+            self.logger.warning("No valid channel with configs found to post.")
+            return
+        
+        # Fetch fresh configs and proxies from the best channel
+        channel_configs = {"vless": [], "vmess": [], "shadowsocks": [], "trojan": []}
+        channel_proxies = []
+        
+        try:
+            temp_configs, temp_proxies, _ = await self.fetch_configs_and_proxies(client, best_channel)
+            for protocol in channel_configs:
+                channel_configs[protocol].extend(temp_configs[protocol])
+            channel_proxies.extend(temp_proxies)
+        except Exception as e:
+            self.logger.error(f"Failed to fetch configs/proxies from best channel {best_channel}: {str(e)}")
+            return
+        
+        # Prepare all configs for posting
+        all_channel_configs = []
+        for protocol in channel_configs:
+            all_channel_configs.extend(channel_configs[protocol])
+        
+        if not all_channel_configs:
+            self.logger.warning(f"No configs found from the best channel {best_channel} to post.")
+            return
+        
+        # Create message with random configs
+        message = f"Configs for V2RAY\n\n```"
+        
+        # Select 5 random configs
+        for _ in range(min(5, len(all_channel_configs))):
+            selected_config = random.choice(all_channel_configs)
+            message += f'{selected_config}\n'
+        
+        message += '```'
+        
+        # Add proxies if available
+        if self.all_proxies:
+            random.shuffle(self.all_proxies)
+            fresh_proxies = self.all_proxies[:8] if len(self.all_proxies) >= 8 else self.all_proxies
+            proxies_formatted = self.format_proxies_in_rows(fresh_proxies, per_row=4)
+            message += "\n" + proxies_formatted
+        
+        # Add channel reference
+        message += f"\n\n🆔 {self.CONFIG_CHANNEL}"
+        
+        # Send message
+        try:
+            await client.send_message(self.CONFIG_CHANNEL, message, parse_mode="markdown")
+            self.logger.info(f"Posted configs + proxies from {best_channel} to {self.CONFIG_CHANNEL}")
+        except Exception as e:
+            self.logger.error(f"Failed to post config/proxies to {self.CONFIG_CHANNEL}: {str(e)}")
+    
+    async def run(self):
+        """Main execution method for the config collector."""
+        self.logger.info("Starting Telegram Config Collector")
+        
+        # Load channels and initialize Telegram client
+        telegram_channels = self.load_channels()
+        
+        if not telegram_channels:
+            self.logger.error("No channels to process. Exiting.")
+            return
+        
+        session = StringSession(self.SESSION)
+        
+        try:
+            async with TelegramClient(session, self.API_ID, self.API_HASH) as client:
+                # Check if session is authorized
+                if not await client.is_user_authorized():
+                    self.logger.error("Invalid session. Please check your SESSION_STRING.")
+                    return
+                
+                # Process each channel
+                for channel in telegram_channels:
+                    self.logger.info(f"Fetching configs/proxies from {channel}...")
+                    
+                    try:
+                        channel_configs, channel_proxies, is_valid = await self.fetch_configs_and_proxies(client, channel)
+                        
+                        if not is_valid:
+                            self.channels_status[channel] = {
+                                "vless_count": 0,
+                                "vmess_count": 0,
+                                "shadowsocks_count": 0,
+                                "trojan_count": 0,
+                                "proxy_count": 0,
+                                "total_configs": 0,
+                                "score": 0,
+                                "error": "Channel does not exist or is inaccessible"
+                            }
+                            continue
+                        
+                        # Calculate statistics
+                        total_configs = sum(len(configs) for configs in channel_configs.values())
+                        proxy_count = len(channel_proxies)
+                        score = total_configs + proxy_count
+                        
+                        # Update channel status
+                        self.channels_status[channel] = {
+                            "vless_count": len(channel_configs["vless"]),
+                            "vmess_count": len(channel_configs["vmess"]),
+                            "shadowsocks_count": len(channel_configs["shadowsocks"]),
+                            "trojan_count": len(channel_configs["trojan"]),
+                            "proxy_count": proxy_count,
+                            "total_configs": total_configs,
+                            "score": score
+                        }
+                        
+                        # Aggregate all configs and proxies
+                        for protocol in self.all_configs:
+                            self.all_configs[protocol].extend(channel_configs[protocol])
+                            self.logger.info(f"Found {len(self.all_configs[protocol])} {protocol} configs")
+                        
+                        self.all_proxies.extend(channel_proxies)
+                        
+                    except Exception as e:
+                        self.channels_status[channel] = {
                             "vless_count": 0,
                             "vmess_count": 0,
                             "shadowsocks_count": 0,
@@ -295,53 +445,32 @@ async def main():
                             "proxy_count": 0,
                             "total_configs": 0,
                             "score": 0,
-                            "error": "Channel does not exist or is inaccessible"
+                            "error": str(e)
                         }
-                        continue
+                        self.logger.error(f"Channel {channel} is invalid: {str(e)}")
+                
+                # Save results
+                for protocol in self.all_configs:
+                    self.save_configs(self.all_configs[protocol], protocol)
+                
+                self.save_proxies(self.all_proxies)
+                self.save_channel_status()
+                
+                # Post to channel
+                await self.post_data_to_channel(client)
+                
+        except Exception as e:
+            self.logger.error(f"Error in main loop: {str(e)}")
+            return
+        
+        self.logger.info("Config+proxy collection process completed successfully")
 
-                    total_configs = sum(len(configs) for configs in channel_configs.values())
-                    proxy_count = len(channel_proxies)
-                    score = total_configs + proxy_count
 
-                    CHANNELS_STATUS[channel] = {
-                        "vless_count": len(channel_configs["vless"]),
-                        "vmess_count": len(channel_configs["vmess"]),
-                        "shadowsocks_count": len(channel_configs["shadowsocks"]),
-                        "trojan_count": len(channel_configs["trojan"]),
-                        "proxy_count": proxy_count,
-                        "total_configs": total_configs,
-                        "score": score
-                    }
-                    for protocol in ALL_CONFIGS:
-                        ALL_CONFIGS[protocol].extend(channel_configs[protocol])
-                        logger.info(f"Found {len(ALL_CONFIGS[protocol])} {protocol} configs")
+async def main():
+    """Main function to run the Telegram Config Collector."""
+    collector = TelegramConfigCollector()
+    await collector.run()
 
-                    ALL_PROXIES.extend(channel_proxies)
-                except Exception as e:
-                    CHANNELS_STATUS[channel] = {
-                        "vless_count": 0,
-                        "vmess_count": 0,
-                        "shadowsocks_count": 0,
-                        "trojan_count": 0,
-                        "proxy_count": 0,
-                        "total_configs": 0,
-                        "score": 0,
-                        "error": str(e)
-                    }
-                    logger.error(f"Channel {channel} is invalid: {str(e)}")
-
-            for protocol in ALL_CONFIGS:
-                save_configs(ALL_CONFIGS[protocol], protocol)
-                save_proxies(ALL_PROXIES)
-                save_channel_status(CHANNELS_STATUS)
-                await post_data_to_channel(client, ALL_CONFIGS, ALL_PROXIES, CHANNELS_STATUS)
-
-    except Exception as e:
-        logger.error(f"Error in main loop: {str(e)}")
-        print(f"Error in main loop: {str(e)}")
-        return
-
-    logger.info("Config+proxy collection process completed")
 
 if __name__ == "__main__":
     asyncio.run(main())
