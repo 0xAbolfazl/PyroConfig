@@ -13,7 +13,6 @@ from datetime import timedelta, datetime
 import re
 from typing import List
 from urllib.parse import urlparse, parse_qs
-from functools import lru_cache
 
 SESSION = os.getenv('SESSION_STRING')
 API_ID = int(os.getenv('API_ID'))
@@ -34,6 +33,9 @@ PROXY_PATTERN = r'https?://t\.me/proxy\?[^\s]+'
 
 if not os.path.exists(CONFIG_FOLDER):
     os.makedirs(CONFIG_FOLDER)
+
+if not os.path.exists(LOGS_FOLDER):
+    os.makedirs(LOGS_FOLDER)
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -121,10 +123,6 @@ def is_valid_proxy_url(url: str) -> bool:
         
     except Exception:
         return False
-
-@lru_cache(maxsize=128)
-def extract_proxies_cached(message) -> List[str]:
-    return extract_proxies_from_message(message)
     
 async def fetch_configs_and_proxies(client, channel):
     channel_configs = {"vless": [], "vmess": [], "shadowsocks": [], "trojan": []}
@@ -156,7 +154,7 @@ async def fetch_configs_and_proxies(client, channel):
                             channel_configs[protocol].extend(matches)
                     # Extracting proxies
                     if message_date >= last_day:
-                        proxy_links = extract_proxies_cached(message)
+                        proxy_links = extract_proxies_from_message(message)
                         if proxy_links:
                             logger.info(f"Found {len(proxy_links)} proxies in message from {channel}")
                             channel_proxies.extend(proxy_links)
@@ -250,6 +248,8 @@ async def main():
                     }
                     for protocol in ALL_CONFIGS:
                         ALL_CONFIGS[protocol].extend(channel_configs[protocol])
+                        logger.info(f"Found {len(ALL_CONFIGS[protocol])} {protocol} configs")
+
                     ALL_PROXIES.extend(channel_proxies)
                 except Exception as e:
                     CHANNELS_STATUS[channel] = {
