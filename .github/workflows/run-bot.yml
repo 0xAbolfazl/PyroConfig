@@ -1,0 +1,74 @@
+name: Fetch V2RAY Configs
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  
+
+jobs:
+  update-configs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: pip install telethon
+
+    - name: Create channels.json if not exists
+      run: |
+        if [ ! -f channels.json ]; then
+          echo '{"all_channels" : ["@Alpha_V2ray_Iran", "@prrofile_purple", "@iMTProto", "@v2rayargon"]}' > channels.json
+        fi
+
+    - name: Create necessary directories
+      run: mkdir -p Configs Logs
+
+    - name: Run Telegram Bot
+      env:
+        SESSION_STRING: ${{ secrets.SESSION_STRING }}
+        API_ID: ${{ secrets.API_ID }}
+        API_HASH: ${{ secrets.API_HASH }}
+        CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+      run: python main.py
+
+    # Commit config files
+    - name: Commit and push important configs
+    # if last part was success do this parts
+      if: success() 
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "github-actions@users.noreply.github.com"
+        
+        # only main configs
+        git add Configs/vless.txt || echo "vless.txt not found"
+        git add Configs/vmess.txt || echo "vmess.txt not found" 
+        git add Configs/trojan.txt || echo "trojan.txt not found"
+        git add Configs/shadowsocks.txt || echo "shadowsocks.txt not found"
+        git add Configs/proxies.txt || echo "proxies.txt not found"
+        
+        # checking changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "📦 Auto-update configs [skip ci] $(date +'%Y-%m-%d %H:%M')"
+          git push
+          echo "Configs updated successfully"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # save log files as artifact for debugging
+    - name: Upload logs as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: debug-logs
+        path: |
+          Logs/
+        retention-days: 3  #save only for 3 days
