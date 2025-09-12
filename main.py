@@ -8,8 +8,7 @@ from telethon.sessions import StringSession
 from telethon.sync import TelegramClient
 from telethon.tl.types import Message, MessageEntityTextUrl, MessageEntityUrl
 from telethon.sessions import StringSession
-from telethon.errors import ChannelInvalidError, PeerIdInvalidError
-from collections import defaultdict
+from telethon.errors import ChannelInvalidError
 from datetime import timedelta, datetime
 import re
 
@@ -48,7 +47,40 @@ def load_channels():
         return channels_list
     
 async def fetch_configs(client, channel):
-    pass
+    channel_configs = {"vless": [], "vmess": [], "shadowsocks": [], "trojan": []}
+    channel_proxies = []
+    try:
+        await client.get_entity(channel)
+    except ChannelInvalidError as e:
+        logger.error(f"Channel {channel} does not exist or is inaccessible: {str(e)}")
+        return channel_configs, channel_proxies, False
+
+    try:
+        message_count = 0
+        today = datetime.now().date()
+        last_day = today - timedelta(days=1)
+
+        async for message in client.iter_messages(channel, limit=200):
+            message_count += 1
+            if message.date:
+                message_date = message.date.date()
+                if message_date not in [today] and message_date < last_day:
+                    continue
+                if isinstance(message, Message) and message.message:
+                    text = message.message
+                    for protocol, config_pattern in CONFIG_PATTERNS.items():
+                        matches = re.findall(config_pattern, text)
+                        if matches:
+                            logger.info(f"Found {len(matches)} {protocol} configs in message from {channel}: {matches}")
+                            channel_configs[protocol].extend(matches)
+            else:
+                continue
+
+        logger.info(f"Processed {message_count} messages from {channel}, found {sum(len(configs) for configs in channel_configs.values())} configs, {len(channel_proxies)} proxies")
+        return channel_configs, channel_proxies, True
+    except Exception as e:
+        logger.error(f"Failed to fetch from {channel}: {str(e)}")
+        return channel_configs, channel_proxies, False
 
 def fetch_proxies():
     pass
@@ -76,7 +108,7 @@ async def main():
                 logger.info(f"Fetching configs/proxies from {channel}...")
                 print(f"Fetching configs/proxies from {channel}...")
                 try:
-                    channel_configs, is_valid = await fetch_configs(client, channel)
+                    channel_configs, channel_proxies, is_valid = await fetch_configs(client, channel)
                     if not is_valid:
                         print(f'invalid channel : {channel}')
 
