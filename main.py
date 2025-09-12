@@ -19,8 +19,10 @@ SESSION = os.getenv('SESSION_STRING')
 API_ID = int(os.getenv('API_ID'))
 API_HASH = os.getenv('API_HASH')
 CHANNELS = 'channels.json'
-LOGS = 'logs.txt'
+LOGS = 'Logs/logs.txt'
 CONFIG_FOLDER = 'Configs'
+LOGS_FOLDER = 'Logs'
+CHANNELS_LOG = 'Logs/channels_log.json'
 
 CONFIG_PATTERNS = {
     "vless": r"vless://[^\s]+",
@@ -167,11 +169,36 @@ async def fetch_configs_and_proxies(client, channel):
         logger.error(f"Failed to fetch from {channel}: {str(e)}")
         return channel_configs, channel_proxies, False
 
-def fetch_proxies():
-    pass
+def save_configs(configs, protocol):
+    output_file = rf"Configs/{protocol}.txt"
+    logger.info(f"Saving configs to {output_file}")
+    with open(output_file, "w", encoding="utf-8") as f:
+        if configs:
+            for config in configs:
+                f.write(config + "\n")
+            logger.info(f"Saved {len(configs)} {protocol} configs to {output_file}")
+        else:
+            f.write(f"No configs found for {protocol}\n")
+            logger.info(f"No {protocol} configs found")
 
-def save_configs():
-    pass
+def save_channel_status(stats):
+    logger.info(f"Saving channel status to {CHANNELS_LOG}")
+    stats_list = [{"channel": channel, **data} for channel, data in stats.items()]
+    with open(CHANNELS_LOG, "w", encoding="utf-8") as f:
+        json.dump(stats_list, f, ensure_ascii=False, indent=4)
+    logger.info(f"Saved channel status to {CHANNELS_LOG}")
+
+def save_proxies(proxies):
+    output_file = rf"Configs/proxies.txt"
+    logger.info(f"Saving proxies to {output_file}")
+    with open(output_file, "w", encoding="utf-8") as f:
+        if proxies:
+            for proxy in proxies:
+                f.write(f"{proxy}\n")
+            logger.info(f"Saved {len(proxies)} proxies to {output_file}")
+        else:
+            f.write("No proxies found.\n")
+            logger.info("No proxies found")
 
 def post_configs():
     pass
@@ -181,6 +208,10 @@ async def main():
     
     TELEGRAM_CHANNELS = load_channels()
     session = StringSession(SESSION)
+    CHANNELS_STATUS = {}
+    ALL_CONFIGS = {"vless": [], "vmess": [], "shadowsocks": [], "trojan": []}
+    ALL_PROXIES = []
+
 
     try:
         async with TelegramClient(session, API_ID, API_HASH) as client:
@@ -195,16 +226,49 @@ async def main():
                 try:
                     channel_configs, channel_proxies, is_valid = await fetch_configs_and_proxies(client, channel)
                     if not is_valid:
-                        print(f'invalid channel : {channel}')
+                        CHANNELS_STATUS[channel] = {
+                            "vless_count": 0,
+                            "vmess_count": 0,
+                            "shadowsocks_count": 0,
+                            "trojan_count": 0,
+                            "proxy_count": 0,
+                            "total_configs": 0,
+                            "error": "Channel does not exist or is inaccessible"
+                        }
+                        continue
 
-                    print('this is channel configs : ')
-                    print(channel_configs)
-                    print('this is channels proxies :')
-                    print(channel_proxies)
+                    total_configs = sum(len(configs) for configs in channel_configs.values())
+                    proxy_count = len(channel_proxies)
 
+                    CHANNELS_STATUS[channel] = {
+                        "vless_count": len(channel_configs["vless"]),
+                        "vmess_count": len(channel_configs["vmess"]),
+                        "shadowsocks_count": len(channel_configs["shadowsocks"]),
+                        "trojan_count": len(channel_configs["trojan"]),
+                        "proxy_count": proxy_count,
+                        "total_configs": total_configs,
+                    }
+                    for protocol in ALL_CONFIGS:
+                        ALL_CONFIGS[protocol].extend(channel_configs[protocol])
+                    ALL_PROXIES.extend(channel_proxies)
                 except Exception as e:
-                    print('Error in channel loop')
-                    print(str(e))
+                    CHANNELS_STATUS[channel] = {
+                        "vless_count": 0,
+                        "vmess_count": 0,
+                        "shadowsocks_count": 0,
+                        "trojan_count": 0,
+                        "proxy_count": 0,
+                        "total_configs": 0,
+                        "score": 0,
+                        "error": str(e)
+                    }
+                    logger.error(f"Channel {channel} is invalid: {str(e)}")
+
+            for protocol in ALL_CONFIGS:
+                save_configs(ALL_CONFIGS[protocol], protocol)
+                save_proxies(ALL_PROXIES)
+                save_channel_status(CHANNELS_STATUS)
+
 
     except Exception as e:
         logger.error(f"Error in main loop: {str(e)}")
