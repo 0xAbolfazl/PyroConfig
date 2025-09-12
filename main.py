@@ -1,5 +1,3 @@
-from pip import main
-main(['install', 'telethon'])
 import logging
 import os
 import json
