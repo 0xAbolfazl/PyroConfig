@@ -56,7 +56,7 @@ This project **automatically** collects and publishes V2Ray configurations from 
 ### Running
 
 ```python
-pyhton main.py
+python main.py
 ```
 ---
 > 🚨 Using this project implies your full acceptance of all potential risks.
