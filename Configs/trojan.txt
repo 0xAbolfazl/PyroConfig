@@ -1,1 +1,1 @@
-trojan://slch2024@192.169.223.87:2096?path=%2Ftelegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect&security=tls&host=ocost-dy.wmlefl.cc&type=ws&sni=ocost-dy.wmlefl.cc#T.ME%2FEternal_Connect%20%7C%20%F0%9F%8C%8D
+No configs found for trojan
