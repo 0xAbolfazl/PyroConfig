@@ -1,1 +1,1 @@
-No configs found for trojan
+trojan://1ce1df7962f71c6f@uk-03.allhubb.info:8443?security=tls&headerType=none&type=tcp#%40V2rayAlpha--All-40
