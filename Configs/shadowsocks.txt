@@ -1,3 +1,5 @@
+ss://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.146:8880?mode=gun&security=none&encryption=none&type=grpc#%F0%9F%87%AB%F0%9F%87%B7Telegram%3Atik7net_vpn
+ss://ca46f1db-8cac-4c60-aa56-67b795dd9379@91.99.179.41:24199?security=&encryption=none&headerType=none&type=tcp&note=Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---#%5B%F0%9F%87%A9%F0%9F%87%AA%5Dt.me%2FRaiv2mmr
 ss://80764883-7f6b-4c46-8ecd-887cdf541c07@172.66.44.174:2053?path=%2F&security=tls&encryption=none&host=edc32e3b.bpb-panel-en-87s.pages.dev&fp=chrome&type=ws&sni=edc32e3b.bpb-panel-en-87s.pages.dev#%F0%9F%87%A9%F0%9F%87%AATelegram%3Atik7net_vpn
 ss://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?mode=gun&security=none&encryption=none&type=grpc#%F0%9F%87%AB%F0%9F%87%B7Telegram%3Atik7net_vpn
 ss://df0680ca-e43c-498d-ed86-8e196eedd012@103.231.75.74:8880?mode=gun&security=none&encryption=none&type=grpc#%F0%9F%87%B9%F0%9F%87%B7Telegram%3Atik7net_vpn
