@@ -1,1 +1,1 @@
-trojan://D%2BelR9-TfYxo.X6JVnrMw@38.54.8.233:11254?security=tls&host=v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree%26&headerType=none&type=tcp&sni=fluxfloss.click#%F0%9F%87%A6%F0%9F%87%AA%40v_ngfree%F0%9F%91%88%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
+No configs found for trojan
