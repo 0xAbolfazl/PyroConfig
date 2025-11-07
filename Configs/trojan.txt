@@ -1,1 +1,2 @@
-No configs found for trojan
+trojan://BxceQaOe@58.152.46.98:443?security=tls&headerType=none&type=tcp#%F0%9F%87%AD%F0%9F%87%B0%5BTelegram%3A%40tik7net_vpn%5D%20trojan-HK
+trojan://BxceQaOe@58.152.46.98:443?security=tls&headerType=none&type=tcp#%F0%9F%87%AD%F0%9F%87%B0%5BTelegram%3A%40tik7net_vpn%5D%20trojan-HK
