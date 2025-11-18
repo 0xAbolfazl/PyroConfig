@@ -1,1 +1,2 @@
-No configs found for trojan
+trojan://G9CHhXltVx@96.9.213.108:12646?security=tls&headerType=none&type=tcp#All-%40V2rayAlpha--1
+trojan://G9CHhXltVx@96.9.213.108:12646?security=tls&headerType=none&type=tcp#All-%40V2rayAlpha--1
