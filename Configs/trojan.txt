@@ -1,2 +1,1 @@
-trojan://G9CHhXltVx@96.9.213.108:12646?security=tls&headerType=none&type=tcp#All-%40V2rayAlpha--1
-trojan://G9CHhXltVx@96.9.213.108:12646?security=tls&headerType=none&type=tcp#All-%40V2rayAlpha--1
+trojan://BxceQaOe@38.180.191.251:443?security=tls&headerType=none&type=tcp&sni=t.me%2Fripaojiedian#Telegram%3A%40Enzewa_network
