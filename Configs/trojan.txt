@@ -1,1 +1,1 @@
-trojan://5a2c16f9@98.70.26.236:443?path=Telegram%40V2rayAlpha&security=tls&insecure=1&host=snippets.kkii.eu.org&type=ws&allowInsecure=1&sni=snippets.kkii.eu.org#All-%40V2rayAlpha--1
+trojan://CH1uIwV42k@5.175.249.117:443?security=reality&pbk=kEfLVGaYdINZml2Jz3NMy8dMhlsXY8PiF08dtGN4cH8&host=www.namasha.com%2Cs45.namasha.com&headerType=http&fp=chrome&spx=%2F&type=tcp&sni=google.com&sid=9715efa856269398#%F0%9F%87%A9%F0%9F%87%AA%40TeleProxyTele
