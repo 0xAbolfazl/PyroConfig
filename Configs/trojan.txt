@@ -1,6 +1,6 @@
-trojan://humanity@www.creationlong.org:443?security=tls&sni=www.creationlong.org&fp=chrome&allowInsecure=0&alpn=h2,http/1.1&type=ws&path=/assignment#@TeleProxyTele
-trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%B2%F0%9F%87%AB%40TeleProxyTele
-trojan://Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q@188.114.97.3:443?path=%2FtjwsLhx0SFASG4l9FERJ1g&security=tls&insecure=1&host=mfyousheng.nl.eu.org&type=ws&allowInsecure=1&sni=mfyousheng.nl.eu.org#Wifi-%40V2rayAlpha--1
+trojan://bpb-trojan@singbox.lu567890.us.kg:443?security=tls&sni=singbox.lu567890.us.kg&fp=chrome&allowInsecure=0&type=ws&path=/tr?ed%3D2560#@TeleProxyTele
+trojan://bpb-trojan@singbox.lu567890.us.kg:443?security=tls&sni=singbox.lu567890.us.kg&fp=chrome&allowInsecure=0&type=ws&path=/tr?ed%3D2560#@TeleProxyTele
+trojan://bpb-trojan@94.140.0.1:443?path=%2Ftr%3Fed%3D2560&security=tls&insecure=0&host=singbox.lu567890.us.kg&fp=chrome&type=ws&allowInsecure=0&sni=singbox.lu567890.us.kg#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 trojan://0c1f44f7-c6e5-452b-8603-f84b2556cbd5@109.230.91.202:443?mode=gun&security=tls&insecure=0&type=grpc&serviceName=gr1.grtj.sulindac.top&allowInsecure=0&sni=gr1.grtj.sulindac.top#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 trojan://Zy6DXTCxtR@sama.asukasimp.com:2087?mode=packet-up&path=%2F&security=tls&insecure=0&host=sni1.feydooomain.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=sni1.feydooomain.ir#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
