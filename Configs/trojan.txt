@@ -1,4 +1,4 @@
-trojan://humanity@www.creationlong.org:443?path=%2Fassignment&security=tls&fp=chrome&type=ws&sni=www.creationlong.org#%F0%9F%87%AE%F0%9F%87%B7%20IR%2044%20%40TeleProxyTele
-trojan://humanity@www.multiplydose.com:443?path=%2Fassignment&security=tls&insecure=0&type=ws&allowInsecure=0#%E2%9A%A1%EF%B8%8E%20%F0%9F%87%AE%F0%9F%87%B7%20%F0%93%8F%BA%20%E2%9A%9C%EF%B8%8F%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40tik7net_vpn%20%20%C2%B2%20%D9%85%D9%84%DB%8C%E2%80%8C%D8%B4%DA%A9%D9%86
-trojan://humanity@104.18.32.47:443?path=%2Fassignment&security=tls&host=www.multiplydose.com&fp=chrome&type=ws&sni=www.multiplydose.com#%F0%9F%87%A9%F0%9F%87%AAAll%C2%B9%20%7C%20%40BigSmoke_Config%20
-trojan://humanity@www.multiplydose.com:443?path=%2Fassignment&security=tls&insecure=0&type=ws&allowInsecure=0#%E2%9A%A1%EF%B8%8E%20%F0%9F%87%AE%F0%9F%87%B7%20%F0%93%8F%BA%20%E2%9A%9C%EF%B8%8F%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40tik7net_vpn%20%20%C2%B2%20%D9%85%D9%84%DB%8C%E2%80%8C%D8%B4%DA%A9%D9%86
+trojan://humanity@www.multiplydose.com:443?path=%2Fassignment&security=tls&type=ws#TeleProxyTele
+trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&host=www.multiplydose.com&fp=chrome&type=ws&sni=www.multiplydose.com#TeleProxyTele
+trojan://iWnFtzMiac@205.185.115.223:19258?security=reality&sni=cloudflare.com&sid=6d7efa97b2&fp=chrome&pbk=q_lg6VnOGhN_Ow5gHtZoDv_mJp-8W7m51N6vKamsMXk&allowInsecure=0&type=grpc#@TeleProxyTele
+trojan://iWnFtzMiac@205.185.115.223:19258?security=reality&sni=cloudflare.com&sid=6d7efa97b2&fp=chrome&pbk=q_lg6VnOGhN_Ow5gHtZoDv_mJp-8W7m51N6vKamsMXk&allowInsecure=0&type=grpc#@TeleProxyTele
