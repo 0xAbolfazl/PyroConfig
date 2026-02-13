@@ -1,1 +1,1 @@
-trojan://humanity@www.multiplydose.com:443?path=%2Fassignment&security=tls&insecure=0&type=ws&allowInsecure=0#%F0%9F%87%B3%F0%9F%87%B1%5B%40v2proxfree%5D%20Trojan%20VPN-NL-12667339
+No configs found for trojan
