@@ -1,1 +1,1 @@
-No configs found for trojan
+trojan://humanity@104.18.7.147:443?path=%2Fassignment&security=tls&insecure=0&type=ws&allowInsecure=0&sni=www.creationlong.org#%40Spartan_YT
