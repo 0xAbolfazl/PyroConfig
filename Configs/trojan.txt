@@ -1,1 +1,2 @@
-No configs found for trojan
+trojan://9372cb81c7b0ad903f91f2f8a4d3f02b@18.183.109.29:3373?sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D%20&allowInsecure=1&type=tcp&fp=chrome#@FREEV2RNG-Public
+trojan://9372cb81c7b0ad903f91f2f8a4d3f02b@18.183.109.29:3373?security=tls&insecure=1&headerType=none&type=tcp&allowInsecure=1&sni=www.nintendogames.net#%40milivpnn%20-%F0%9F%A4%8D%20%D8%B9%D8%B6%D9%88%20%D8%B4%D9%88%20%D8%A7%D8%B2%20%D8%B3%D8%B1%D9%88%D8%B1%D8%A7%20%D8%AC%D8%A7%20%D9%86%D9%85%D9%88%D9%86%DB%8C
