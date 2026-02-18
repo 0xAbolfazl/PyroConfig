@@ -1,3 +1,7 @@
+trojan://QJbOuEZtCn@max.silenceux.ir:2087?path=%2FTelegram-%40FF_crony%2F%3Fed%3D2780&security=tls&insecure=0&host=cgjlxvuz8d57.libreone.com&type=ws&allowInsecure=0&sni=cgjlxvuz8d57.libreone.com#%40V2rrayVPN
+trojan://0o9YPNLRgB@Rocket.silenceux.ir:8443?path=%2Ftelegram-%40FF_crony%2F%3Fed%3D2885&security=tls&insecure=0&host=X-finland.sobygod.site&type=ws&allowInsecure=0&sni=X-finland.sobygod.site#Finland%202%20%F0%9F%87%AB%F0%9F%87%AE-V2rrayVPN
+trojan://0o9YPNLRgB@Rocket.silenceux.ir:8443?path=%2Ftelegram-%40FF_crony%2F%3Fed%3D2885&security=tls&insecure=0&host=X-finland.sobygod.site&type=ws&allowInsecure=0&sni=X-finland.sobygod.site#Finland%202%20%F0%9F%87%AB%F0%9F%87%AE-V2rrayVPN
+trojan://0o9YPNLRgB@Rocket.silenceux.ir:8443?path=%2Ftelegram-%40FF_crony%2F%3Fed%3D2885&security=tls&insecure=0&host=X-finland.sobygod.site&type=ws&allowInsecure=0&sni=X-finland.sobygod.site#Finland%202%20%F0%9F%87%AB%F0%9F%87%AE-V2rrayVPN
 trojan://byDSOLVPDd@47.245.158.76:49147?security=reality&pbk=kC0ruZ1MPr6xJlqxtX0R9IasI5wW4bJ8UqeGZWw1r30&headerType=none&fp=chrome&type=tcp&sni=play.google.com&sid=848ecf47e1b2#%40milivpnn%20-%F0%9F%A4%8D%20%D8%B9%D8%B6%D9%88%20%D8%B4%D9%88%20%D8%A7%D8%B2%20%D8%B3%D8%B1%D9%88%D8%B1%D8%A7%20%D8%AC%D8%A7%20%D9%86%D9%85%D9%88%D9%86%DB%8C
 trojan://0o9YPNLRgB@Rocket.silenceux.ir:8443?path=%2Ftelegram-%40FF_crony%2F%3Fed%3D2885&security=tls&insecure=0&host=X-finland.sobygod.site&type=ws&allowInsecure=0&sni=X-finland.sobygod.site#Finland%202%20%F0%9F%87%AB%F0%9F%87%AE-V2rrayVPN
 trojan://00h8uz2a-4udz-qfzq-n0s7-mglbvt35haur@127.0.0.1:4080?security=tls&type=tcp#✅سرورهای
@@ -5,8 +9,4 @@ trojan://j71euaxo-yg2v-q4uo-xhi4-el7u2g3jaswy@127.0.0.1:1080?security=tls&type=t
 trojan://wt993j9s-7yiv-b3ds-tbkh-lwgvb0wsy5n0@127.0.0.1:1080?security=tls&type=tcp#✅سرورهای
 trojan://0o9YPNLRgB@Rocket.silenceux.ir:8443?path=%2Ftelegram-%40FF_crony%2F%3Fed%3D2885&security=tls&insecure=0&host=X-finland.sobygod.site&type=ws&allowInsecure=0&sni=X-finland.sobygod.site#Finland%202%20%F0%9F%87%AB%F0%9F%87%AE-V2rrayVPN
 trojan://0o9YPNLRgB@Rocket.silenceux.ir:8443?path=%2Ftelegram-%40FF_crony%2F%3Fed%3D2885&security=tls&insecure=0&host=X-finland.sobygod.site&type=ws&allowInsecure=0&sni=X-finland.sobygod.site#Finland%202%20%F0%9F%87%AB%F0%9F%87%AE-V2rrayVPN
-trojan://9372cb81c7b0ad903f91f2f8a4d3f02b@18.183.109.29:3373?security=tls&insecure=1&headerType=none&fp=chrome&type=tcp&allowInsecure=1&sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D#%E1%B4%84%CA%9C%E1%B4%80%C9%B4%E1%B4%87%CA%9F%20%3A%20%40%C9%B4%E1%B4%A0%E1%B4%98_%EA%9C%B1%E1%B4%98%E1%B4%87%E1%B4%87%E1%B4%85%20%7C%20%DA%86%D9%86%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-trojan://00h8uz2a-4udz-qfzq-n0s7-mglbvt35haur@127.0.0.1:4080?security=tls&type=tcp#✅سرورهای
-trojan://j71euaxo-yg2v-q4uo-xhi4-el7u2g3jaswy@127.0.0.1:1080?security=tls&type=tcp#✅سرورهای
-trojan://wt993j9s-7yiv-b3ds-tbkh-lwgvb0wsy5n0@127.0.0.1:1080?security=tls&type=tcp#✅سرورهای
-trojan://9372cb81c7b0ad903f91f2f8a4d3f02b@18.183.109.29:3373?security=tls&insecure=1&headerType=none&fp=chrome&type=tcp&allowInsecure=1&sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D#%E1%B4%84%CA%9C%E1%B4%80%C9%B4%E1%B4%87%CA%9F%20%3A%20%40%C9%B4%E1%B4%A0%E1%B4%98_%EA%9C%B1%E1%B4%98%E1%B4%87%E1%B4%87%E1%B4%85%20%7C%20%DA%86%D9%86%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
+trojan://byDSOLVPDd@yxxoxomchoyk.eu-central-1.clawcloudrun.com:49147?security=reality&pbk=kC0ruZ1MPr6xJlqxtX0R9IasI5wW4bJ8UqeGZWw1r30&headerType=none&fp=chrome&type=tcp&sni=play.google.com&sid=848ecf47e1b2#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
