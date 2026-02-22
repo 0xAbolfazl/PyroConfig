@@ -1,5 +1,2 @@
 trojan://humanity@172.67.180.92:443?path=%2Fassignment&security=tls&insecure=0&host=www.multiplydose.com&fp=chrome&type=ws&allowInsecure=0&sni=www.multiplydose.com#%5B%E2%9A%9C%EF%B8%8F%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40tik7net_vpn%20%20%20%DA%86%D9%86%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%5D%20%F0%9F%87%AC%F0%9F%87%A7
 trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&insecure=1&host=www.creationlong.org&type=ws&allowInsecure=1&sni=www.creationlong.org#All-%40V2rayAlpha--16
-trojan://telegram-id-directvpn@52.29.75.76:22223?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http%2F1.1#💥%20@Zed_NetMeli%202
-trojan://telegram-id-directvpn@52.29.75.76:22223?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http%2F1.1#💥%20@Zed_NetMeli%202
-trojan://telegram-id-directvpn@52.29.75.76:22223?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http%2F1.1#💥%20@Zed_NetMeli%202
