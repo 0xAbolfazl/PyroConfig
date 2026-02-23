@@ -1,3 +1,5 @@
+trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&insecure=0&host=www.gossipglove.com&fp=chrome&type=ws&allowInsecure=0&sni=www.gossipglove.com#%E2%97%BC%EF%B8%8F%E2%97%BB%EF%B8%8F%20%40V2ray_persian21
+trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&insecure=1&host=www.creationlong.org&type=ws&allowInsecure=1&sni=www.creationlong.org#All-%40V2rayAlpha--16
 trojan://telegram-id-privatevpns@52.28.169.181:22222?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http%2F1.1#Join%3A%20%40Zed_NetMeli
 trojan://telegram-id-directvpn@13.36.103.205:22223?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http%2F1.1#Join%20%3A%20%40Zed_NetMeli
 trojan://telegram-id-privatevpns@52.28.169.181:22222?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http%2F1.1#Join%3A%20%40Zed_NetMeli
