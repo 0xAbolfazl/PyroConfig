@@ -1,5 +1,4 @@
+trojan://zp630tdUuD@194.150.166.151:52047?mode=gun&security=reality&pbk=4o28aGSIz_r6Fa9sG7ZjgeT764t3bVJKmC9RDwIff38&fp=chrome&type=grpc&sni=aws.amazon.com&sid=1abe0c286879#All-%40V2rayAlpha-8
 trojan://humanity@104.18.32.47:443?path=%2Fassignment&security=tls&fp=chrome&type=ws&sni=www.calmlunch.com#%F0%9F%87%A9%F0%9F%87%AAAll%E2%81%B5%20%7C%20%40BigSmoke_Config
 trojan://humanity@104.18.32.47:443?path=%2Fassignment&security=tls&fp=chrome&type=ws&sni=www.calmlunch.com#%F0%9F%87%A9%F0%9F%87%AAAll%E2%81%B5%20%7C%20%40BigSmoke_Config
-trojan://humanity@104.18.32.37:443?path=%2Fassignment&security=tls&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=www.gossipglove.com#Cloudflare%20%7C%20%40FREEV2RNG
-trojan://adb13850-7e70-492e-85b2-01184801d587@ca05.oportal.cc:443?security=tls&insecure=1&headerType=none&type=tcp&allowInsecure=1#%F0%9F%92%80N%CE%9ETISHI%CE%A3LD%F0%9F%94%A5%20%7C%20%40netishield%20%E2%9A%A1%EF%B8%8F%F0%9F%9B%A1%EF%B8%8F%F0%9F%91%BE%F0%9F%8C%8D
-trojan://adb13850-7e70-492e-85b2-01184801d587@ca05.oportal.cc:443?security=tls&insecure=1&headerType=none&type=tcp&allowInsecure=1#%F0%9F%92%80N%CE%9ETISHI%CE%A3LD%F0%9F%94%A5%20%7C%20%40netishield%20%E2%9A%A1%EF%B8%8F%F0%9F%9B%A1%EF%B8%8F%F0%9F%91%BE%F0%9F%8C%8D
+trojan://humanity@104.18.32.47:443?path=%2Fassignment&security=tls&fp=chrome&type=ws&sni=www.calmlunch.com#%F0%9F%87%A9%F0%9F%87%AAAll%E2%81%B5%20%7C%20%40BigSmoke_Config
