@@ -1,11 +1,3 @@
-vless://45fdb236-47b4-404c-a330-c66270de172e@ic.imsoon.io:45219?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%40v2proxfree%F0%9F%91%88%F0%9F%8F%BB%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D8%A8%D9%BE%DB%8C%D9%88%D9%86%D8%AF%DB%8C%D8%AF
-vless://4c55e931-e33b-487c-806e-cb29b64a089c@94.183.241.159:22222?security=none&encryption=none&headerType=none&type=tcp#@Azadnet_Npv
-vless://TEST@213.176.7.191:10?type=tcp&encryption=none&security=none#starchanelSoftNetConnect
-vless://TEST2@212.33.205.65:12?type=tcp&encryption=none&security=none#starchenelSoftNetConnect
-vless://fe3ce5db-627f-4cb6-857d-f18eed038742@vzb.piko-network.top:3306?security=&encryption=none&headerType=none&type=tcp#https://t.me/Numb_frozen
-vless://085fd318-41f2-4a0a-8438-74f311de1c56@ir2.mahsanrz.ir:2023?path=%2F&security=none&encryption=none&type#https://t.me/Numb_frozen
-vless://a1c6fb9b-fccd-488e-8967-ff0879b4b07c@unlimited.sibvpn.pro:2083?type=ws&path=/&security=none#https://t.me/Numb_frozen
-vless://a4f7ac23-8146-464b-a932-9753f97303aa@sr-d-2.sedarchahar.top:9102?security=none&encryption=none&host=api.live98.ir&headerType=http&type=tcp#https://t.me/Numb_frozen
 vless://ce7331c5-a28c-4478-ae06-2a2c5b5416fe@ir.api.clothesshopping.ir:19163?mode=gun&security=none&encryption=none&type=grpc&serviceName=vless#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 vless://6bf2c61f-db69-4e00-9dc5-249b83e69d73@94.183.171.3:41314?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 vless://dc923edf-9962-4817-bd51-f43f696c5fbc@oodplkgju.vjdkem.mmejdus.ksmajww.cncjskwisuxjs.infinityofconnectedminds.com:3090?path=%2FXIXVPN%3Fed&security=none&encryption=none&host=ebqbi.knedno.kbrgcwq.aqpfmy.utzuryso.infinityofconnectedminds.com&type=ws#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
