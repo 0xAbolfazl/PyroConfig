@@ -1,2 +1,1 @@
-trojan://telegram-id-privatevpns@13.39.97.14:22222?security=tls&alpn=http%2F1.1&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=trojan.burgerip.co.uk#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-trojan://telegram-id-directvpn@13.39.97.14:22223?security=tls&alpn=http%2F1.1&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=trojan.burgerip.co.uk#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+No configs found for trojan
