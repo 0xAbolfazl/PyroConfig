@@ -1,1 +1,1 @@
-No configs found for trojan
+trojan://uFCiD3jljP@tr2.mediadlx.ir:53?security=none&seed=7dqpWdnFJr&headerType=dns&type=kcp#Soft3
