@@ -1,3 +1,12 @@
+vless://908e6886-79f8-4acc-8452-c1576ffd0cd3@pm5.vhuma.com:443?security=none&encryption=none&host=bama.ir&headerType=http&type=tcp#💀NΞTISHIΣLD🔥
+vless://77ea8d6c-1a96-11f1-be1f-1744d2a6f511@tr2.vpnjantit.com:10004?encryption=none&security=none&type=ws&path=%2fvpnjantit#💀NΞTISHIΣLD🔥
+vless://77ea8d6c-1a96-11f1-be1f-1744d2a6f511@tr2.vpnjantit.com:10002?encryption=none&security=tls&type=ws&path=%2fvpnjantit#💀NΞTISHIΣLD🔥
+vless://c72511d7-1729-403d-92c5-7448533a369a@Platform.snapp.ir.green-gaming-company.ir:1011?security=none&encryption=none&host=s.cafebazaar.ir&headerType=http&type=tcp#💀NΞTISHIΣLD🔥
+vless://0773112d-c3fc-4a9f-aea0-d9be521452ce@85.133.227.39:35812?security=reality&encryption=none&pbk=LOS87LofEJA0paPzrS2mIFhmTaqkOZC-AUFgNvE1UEs&headerType=none&fp=chrome&type=tcp&sni=learn.microsoft.com&sid=82cada35130f1ef2#💀NΞTISHIΣLD🔥
+vless://0773112d-c3fc-4a9f-aea0-d9be521452ce@85.133.227.39:35812?security=reality&encryption=none&pbk=LOS87LofEJA0paPzrS2mIFhmTaqkOZC-AUFgNvE1UEs&headerType=none&fp=chrome&type=tcp&sni=learn.microsoft.com&sid=82cada35130f1ef2#💀NΞTISHIΣLD🔥
+vless://1b0b95da-aeb3-8d3e-b03c-63eee27c92a1@turbo.unlimiteds.site:550?security=none&encryption=none&host=fast.com&headerType=http&type=tcp&sni=turbo.unlimiteds.site#💀NΞTISHIΣLD🔥
+vless://8d5b2746-aeda-4f7c-9f6b-062bb6517d48@nl.reata.ir:2050?security=reality&encryption=none&pbk=d00ZgCDuY5ncLM1aF9nocq5oBthFMFetgobyJ2qUTg4&headerType=none&fp=firefox&type=tcp&sni=refersion.com&sid=339d7c53d8832086#💀NΞTISHIΣLD🔥
+vless://0792fda1-176a-4a57-80df-be5222180046@94.101.181.41:19817?security=none&encryption=none&headerType=none&type=tcp#💀NΞTISHIΣLD🔥
 vless://3361a952-096a-4ea5-965b-556e2f870bba@146.70.106.79:21252?security=none&encryption=none&headerType=none&type=tcp#%40Hddify
 vless://ccac781d-1f3e-4e5b-99c2-d07d653b81e8@rk4no3.cdnhoo.top:80?path=%2Fget&security=none&encryption=none&type=ws#%40Hddify
 vless://c967de89-af86-4eba-be64-34e5656ca994@185.126.203.167:16957?security=none&encryption=none&headerType=none&type=tcp#%40Hddify
