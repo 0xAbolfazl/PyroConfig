@@ -1,3 +1,6 @@
+vless://18e0d426-cbe2-4e80-a8d0-6af4116ec811@185.243.49.69:14300?security=none&encryption=none&host=aparat.com&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+vless://c0fbea6a-3c80-ded1-46ed-585d541f5b50@promax.vpsino.com:20960?security=none&encryption=none&host=nobitex.ir&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+vless://6b79d1b5-6b19-4948-a012-f5bd29746511@emg4.saipasamandemg4.sbs:2004?security=none&encryption=none&host=anten.ir&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 vless://d35c5d9b-21b9-48e0-88d1-23b23c2b678d@sv.letknow.shop:1001?security=none&encryption=none&host=anten.ir&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 vless://47d149e3-8ba6-1f40-b91f-3dd9771fa7cc@89.208.229.10:443?security=reality&encryption=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=d8c6b58bcbb0c323#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 vless://478e3305-1866-4602-8949-dc5fd818d39a@viptun2.persianv2.ir:2096?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
