@@ -1,3 +1,7 @@
+vless://e6d862ac-398b-4488-88e0-e5879923934d@81.12.34.37:8080?security=none&encryption=none&host=bama.ir&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+vless://bf710ad2-4a43-4379-aa73-e684f00b6240@broad-sky-9360.k7uztejf9ief.workers.dev:443?path=%2F&security=tls&encryption=none&insecure=1&host=broad-sky-9360.k7uztejf9ief.workers.dev&fp=chrome&type=ws&allowInsecure=1&sni=broad-sky-9360.k7uztejf9ief.workers.dev#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+vless://682f13ec-421f-4a71-b116-60c45d6dc1ed@trailers.sv1.cdn.yoozmovie.com:16771?security=none&encryption=none&host=google.com&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+vless://dd5ae38a-5204-4f12-9d2c-a44fc923dba2@llc.feelpower.ir:2042?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 vless://d00a8716-bdfb-440d-9d2c-f6d944a02acd@tr4.rhino.bottm.security-gmp.rhinnoo.ir:80?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 vless://e6d862ac-398b-4488-88e0-e5879923934d@81.12.34.37:8080?security=none&encryption=none&host=bama.ir&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 vless://fb2c0e80-a66c-4132-9b90-509d4ed369d5@SofeWhite.legendperm.ir:4722?security=none&encryption=none&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
