@@ -1,1 +1,1 @@
-No proxies found.
+https://t.me/proxy?server=37.139.42.151&port=443&secret=f5199e949c0f23bc887581218ad8c1e6
