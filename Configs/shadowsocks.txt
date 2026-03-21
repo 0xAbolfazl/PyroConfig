@@ -1,3 +1,4 @@
+ss://f8c2d687-c155-41a6-9f0c-0cd4629f5808@arad.zabuzabfr.ir:80?path=%2F&security=none&encryption=none&host=arad.zabuzabfr.ir&type=httpupgrade#%40hupivpn%20%D8%A7%DB%8C%D8%AF%DB%8C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7
 ss://431b5aea-099c-4f86-9302-698166870680@meow.panbe.mom:443?security=none&encryption=none&headerType=none&type=tcp#@SudoFluxV2
 ss://00000000-0000-4000-8000-000000000000@147.45.68.252:8082?allowInsecure=1&encryption=none&host=jmc9f8ao6n5xq.saghv.filegear-sg.me&path=/@Marisa_kristi&security=tls&sni=jmc9f8ao6n5xq.saghv.filegear-sg.me&type=ws#@SudoFluxV2
 ss://682f13ec-421f-4a71-b116-60c45d6dc1ed@trailers.sv1.cdn.yoozmovie.com:16771?type=tcp&headerType=http&host=google.com&path=/&security=none#@SudoFluxV2
