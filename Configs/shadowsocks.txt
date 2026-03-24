@@ -1,6 +1,10 @@
 ss://d85463d6-c213-4ef3-ad5e-9adf8bde2feb@vip-meli5.nightgemshop.com:16019?security=none&encryption=none&headerType=none&type=tcp#%40Proxy_V2ry%20%F0%9F%A5%80%E2%9D%A4%20%D8%A2%DB%8C%D8%AF%DB%8C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
 ss://32065308-dbc8-4fde-9c70-275809b99174@q.gostargate.top:443?security=none&encryption=none&host=static.telewebion.ir&headerType=http&type=tcp#%40%E2%80%8CProxy_V2ry%20%E2%9D%A4%20%D8%A2%DB%8C%D8%AF%DB%8C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
 ss://22753114-c3cb-4613-9f2d-759a871489f7@ir.gafe-lorbad.ir:443?security=none&encryption=none&headerType=none&type=tcp#%40tik7net_vpn
+ss://898f08d1-f64a-4cc1-8e70-5e9b3a2494dc@tun2.wopeq.com:921?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+ss://18e35ca4-4b6e-43dd-9c28-b3ef89966821@mlh.mynethub99.top:443?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=mlh.mynethub99.top#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+ss://4f93c1f9-6dbf-4103-bfa7-2239105ae9d6@ir.gafe-lorbad.ir:443?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+ss://a93a8999-82bf-46ff-86a9-fba981f35cdc@85.9.104.8:62727?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 ss://b9653688-1470-f844-f106-a12f10fb3517@porttt4.webchipro2.ir:3040?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 ss://22753114-c3cb-4613-9f2d-759a871489f7@ir.gafe-lorbad.ir:443?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 ss://4f93c1f9-6dbf-4103-bfa7-2239105ae9d6@ir.gafe-lorbad.ir:443?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
