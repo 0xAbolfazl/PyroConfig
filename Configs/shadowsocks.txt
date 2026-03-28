@@ -1,3 +1,16 @@
+ss://788d2a40-12fe-4296-b802-d218308e769b@94.101.179.197:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=archive-azd1101.telewebion.ir&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://cd87ea32-4b8e-4e38-ba43-652040511ed8@92.114.24.250:443?encryption=none&security=tls&sni=api.meibourse.com&fp=chrome&type=ws&host=api.meibourse.com&path=%2F#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://9da0953c-9ae1-44d9-8482-68d4dac8e6d9@185.143.234.120:443?encryption=none&security=tls&sni=alef.ir.oadeflantrogm.mahanmapcdn.com&fp=chrome&type=ws&host=alef.ir.oadeflantrogm.mahanmapcdn.com&path=%2F#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://16a5322b-0db6-45b7-9506-5aec747d999d@85.133.221.61:543?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://1667c559-b95b-490e-a45b-4c3ea2b1c52d@www.genshinclub.ir:443?encryption=none&security=reality&sni=movie.genshinclub.ir&fp=chrome&pbk=7RnHm0iBdV4mH-3xQ-2urtMp6OMPJ0fGRA3RBV8dino&sid=f04818bf&spx=%2Fx4gTrPMZ7ZRHF4C&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://a9f312c8-2f5d-41fa-8164-faf70df239e2@81.12.35.97:80?encryption=none&security=none&type=xhttp&path=%2F&mode=stream-one#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://f7ce4158-d115-405d-bf6a-eb739734e1c7@link.mizbanertebatfarda.site:3010?encryption=none&security=none&sni=myket.ir&type=ws&host=myket.ir&path=%2F#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://ecd14e28-48c2-402d-8ea2-0652f79dccbe@mp.kharazmi.top:30086?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://717ef6a0-1c29-11f1-9350-92000723b4ab@dlc-new11.persianpinggame.com:5111?encryption=none&security=none&type=tcp&headerType=http&host=filmnet.ir#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://a0d7cdab-5821-4477-b0c2-33c0060baf62@vip-meli3.nightgemshop.com:443?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://f6f63745-ec4a-4fa7-bac4-04aa571a4ae0@emergency2.layer-ziro.ir:2002?encryption=none&security=none&type=tcp&headerType=http&host=anten.ir#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://82154867-611d-48a6-92a5-c3eae466b07c@185.83.182.83:45433?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20%F0%9F%8D%93%20%40xixv2ray
+ss://d8680ca0-b97c-40cf-9726-16c362eadf88@snapp.ir:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=alfred-af5ad8949d-alfred13.apps.ir-central1.arvancaas.ir&type=ws#%40tik7net_vpn%20%F0%9F%95%8A%20%D8%B9%D8%B6%D9%88%20%D8%A8%D8%A7%D8%B4%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C
 ss://a4ffb383-a334-4075-b7a9-c291e51f827a@temp.myextraordinary.ir:8080?security=none&encryption=none&headerType=none&type=tcp#%40tik7net_vpn%20%F0%9F%95%8A%20%D8%B9%D8%B6%D9%88%20%D8%A8%D8%A7%D8%B4%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C
 ss://69183890-16f7-42e5-9e84-53875e6c3eb3@turki.esrtz.onl:443?mode=auto&security=none&encryption=none&type=xhttp#%40mrvpn700%F0%9F%91%88%D8%A2%D8%AF%D8%B1%D8%B3%20%DA%AF%D8%B1%D9%88%D9%87%D9%85%D9%88%D9%86%20%D8%AF%D8%B1%20%D8%AA%D9%84
 ss://684ffd3f-f12c-4842-9d84-995528430365@snapp.ir:80?path=%2F&security=none&encryption=none&host=ar.liarashop.ir&type=ws#%40tik7net_vpn%20%F0%9F%95%8A%20%D8%B9%D8%B6%D9%88%20%D8%A8%D8%A7%D8%B4%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C
@@ -5,6 +18,10 @@ ss://c060fdda-385d-aea1-3982-5a6c92876481@85.133.249.43:58387?security=none&encr
 ss://eef044ee-21f4-4a8a-80cb-0d2af3df34c3@dl.io-laptop.ir:8443?mode=auto&path=%3Fed%3D2048&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=dl.io-laptop.ir&fp=chrome&type=xhttp&sni=dl.io-laptop.ir#V2rayng_Saz
 ss://09e485e1-241c-4d17-82b2-0dff1be3f61e@kvm.iranhosting.mom:55003?security=none&allowInsecure=0&encryption=none&type=ws&host=rubika.ir&path=/#V2rayng_Saz
 ss://4e0f7ef4-4ce6-4de6-bfb9-5b831436bedf@193.58.119.134:443?security=&encryption=none&host=google.com&headerType=http&type=tcp#V2rayng_Saz
+ss://fae38aae-0342-4752-834d-@172.237.128.199:443?mode=stream-one&path=%2F&security=none&encryption=none&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+ss://d061c520-1cdb-11f1-972f-92000723b4ab@dlc-new11.persianpinggame.com:5111?security=none&encryption=none&host=myket.ir&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+ss://bc6f9208-ba56-4678-a29c-afc8b8af9b89@77.83.245.135:34205?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+ss://d8680ca0-b97c-40cf-9726-16c362eadf88@snapp.ir:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=alfred-af5ad8949d-alfred13.apps.ir-central1.arvancaas.ir&type=ws#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08@57.129.140.88:8388#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 ss://09e485e1-241c-4d17-82b2-0dff1be3f61e@kvm.iranhosting.mom:55003?path=%2F&security=none&encryption=none&host=rubika.ir&type=ws#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 ss://a6eb1781-e671-4a63-ab3a-252079c69b8a@star.smile-loyal.fun:2083?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
