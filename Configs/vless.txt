@@ -15,6 +15,11 @@ vless://82154867-611d-48a6-92a5-c3eae466b07c@185.83.182.83:45433?encryption=none
 vless://d8680ca0-b97c-40cf-9726-16c362eadf88@snapp.ir:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=alfred-af5ad8949d-alfred13.apps.ir-central1.arvancaas.ir&type=ws#%40tik7net_vpn%20%F0%9F%95%8A%20%D8%B9%D8%B6%D9%88%20%D8%A8%D8%A7%D8%B4%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C
 vless://a4ffb383-a334-4075-b7a9-c291e51f827a@temp.myextraordinary.ir:8080?security=none&encryption=none&headerType=none&type=tcp#%40tik7net_vpn%20%F0%9F%95%8A%20%D8%B9%D8%B6%D9%88%20%D8%A8%D8%A7%D8%B4%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C
 vless://69183890-16f7-42e5-9e84-53875e6c3eb3@turki.esrtz.onl:443?mode=auto&security=none&encryption=none&type=xhttp#%40mrvpn700%F0%9F%91%88%D8%A2%D8%AF%D8%B1%D8%B3%20%DA%AF%D8%B1%D9%88%D9%87%D9%85%D9%88%D9%86%20%D8%AF%D8%B1%20%D8%AA%D9%84
+vless://2ed83fb1-6873-439f-abf8-a58015358802@151.101.65.57:80?mode=auto&path=%2FTignaliSWithYou&security=none&encryption=none&host=tignaltofan.global.ssl.fastly.net&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+vless://2824261c-ab99-4af9-99fd-1a95c7da493d@2.188.227.168:43291?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+vless://f2169fd1-8862-4cfb-b2bd-d87bdd42c37d@185.143.233.200:80?path=%2F&security=none&encryption=none&host=asd.arnewluncher.ir&type=ws#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+vless://12652aba-cb8a-4b26-9bb7-748605b3ee57@shop.webchipro2.ir:7777?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+vless://08238f73-88ae-49e0-81ad-aa0cf0e901d9@simcard.parhamm1.ir:5066?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 vless://fae38aae-0342-4752-834d-@172.237.128.199:443?mode=stream-one&path=%2F&security=none&encryption=none&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 vless://d061c520-1cdb-11f1-972f-92000723b4ab@dlc-new11.persianpinggame.com:5111?security=none&encryption=none&host=myket.ir&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 vless://bc6f9208-ba56-4678-a29c-afc8b8af9b89@77.83.245.135:34205?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
