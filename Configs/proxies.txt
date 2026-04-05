@@ -1,3 +1,5 @@
+https://t.me/proxy?server=prx.today&port=443&secret=b3f0c7f6af7dc2dc2e9c80d0d80e8162
+https://t.me/proxy?server=proxyobhod.online&port=443&secret=71c30cc28759e0a10b6de5b471d69751
 https://t.me/proxy?server=prx.today&port=443&secret=b3f0c7f6af7dc2dc2e9c80d0d80e8162&@vpnbaz
 https://t.me/proxy?server=vavan.xyz&port=443&secret=dd104462821249bd7ac519130220c25d09&@vpnbaz
 https://t.me/proxy?server=proxlet.site&port=443&secret=8d969eef6ecad3c29a3a629280e686cf&@vpnbaz
