@@ -1,6 +1,8 @@
+ss://Y2hhY2hhMjAtcG9seTEzMDU6OUFzd1hseHFyT0V1Tm9iVG9OcjlFWlNp@37.27.200.55:25845#%40v2ray_phoenix
 ss://cb026873-8ea0-4676-a9f2-403d736fbd2e@188.114.98.0:8080?path=%2Fws&security=none&encryption=none&host=test.tuozs.ir&type=ws#netishield
 ss://8a30cf48-9fa2-46c5-8815-2822b12852e0@188.114.98.0:443?path=%2F&security=tls&encryption=none&insecure=1&host=xqkxw.ccwu.cc&type=ws&allowInsecure=1&sni=xqkxw.ccwu.cc#netishield
 ss://607c1297-7c8e-49b3-929c-cc7ef533724a@beshkan.elkout.com:37922?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%AA%B7
 ss://330a031d-191a-4fa5-99f0-e5f87add1475@185.143.233.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#%F0%9F%AA%B7
+ss://a579ecd6-8767-422c-87e8-932c4a1af84f@ip.iran.mobileemdad.top:8080?security=none&encryption=none&headerType=none&type=tcp#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
 ss://cff6f361-828a-43c8-a8b5-8d10b32e57fb@188.114.98.0:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=zh.hollowspot.ir&type=ws&allowInsecure=0&sni=zh.hollowspot.ir#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
 ss://d21c4967-1d64-4856-9b85-e803bd34460e@outpanel.vipdamdam.ir:3333?security=none&encryption=none&headerType=none&type=tcp#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
