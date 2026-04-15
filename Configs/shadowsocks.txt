@@ -1,3 +1,5 @@
+ss://9d9416b4-3cbc-4e45-9885-417b177b9376@snapp.ir:80?path=%2F&security=none&encryption=none&host=Darxhinteam.bravo-six.ir&type=ws#@Eternal_Connect
+ss://bd8c5fce-aec8-458d-bb41-7c442250a353@snapp.ir:80?encryption=none&host=Darxhinteam.bravo-six.ir&path=%2F&security=none&type=ws#@Eternal_Connect
 ss://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2053?security=tls&encryption=none&insecure=0&host=sni.111000.indevs.in&fp=chrome&type=ws&allowInsecure=0&sni=sni.111000.indevs.in#netishield
 ss://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2053?security=tls&encryption=none&insecure=0&host=sni.111000.dynv6.net&type=ws&allowInsecure=0&sni=sni.111000.dynv6.net#netishield
 ss://501e461e-02f6-4293-8334-d6ba7c076dd9@104.18.4.130:443?mode=auto&path=%2F&security=tls&encryption=none&insecure=0&host=cdn.dns.xn--q9jyb4c&type=xhttp&allowInsecure=0&sni=cdn.dns.xn--q9jyb4c#netishield
