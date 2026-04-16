@@ -1,3 +1,5 @@
+ss://34d4e56c-8a56-4ce2-84d5-8a2525748046@194.59.171.217:14774?security=none&encryption=none&headerType=none&type=tcp#@Eternal_Connect
+ss://5c5fd440-327d-4749-a940-98b08cb10cad@194.59.171.217:14774?security=none&encryption=none&headerType=none&type=tcp#%40v2ray_phoenix
 ss://2601740f-12a1-4e61-ba12-4e84915f5ed8@185.143.234.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#%40v2ray_phoenix
 ss://5326001c-06f9-4916-80bc-27ce24f629a3@185.143.234.235:8080?path=%2F&security=none&encryption=none&host=ire.binping.lol&type=ws#%40v2ray_phoenix
 ss://33def33b-3bf0-490d-bfd9-5582390968f0@94.101.178.172:35880?security=none&encryption=none&headerType=none&type=tcp#%40v2ray_phoenix
