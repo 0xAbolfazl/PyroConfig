@@ -1,3 +1,4 @@
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@5.239.245.250:443?path=%2F&security=tls&encryption=none&host=sni.111000.indevs.in&fp=chrome&type=ws&sni=sni.111000.indevs.in#@Eternal_Connect
 vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@8.6.112.0:80?path=%2F%20%40ProxyVPN11&security=&encryption=none&host=vip.yaml7.ggff.net&type=ws#@FREEV2RNG
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@8.6.112.0:2096?path=%2F%3Fed%3D2560&security=tls&encryption=none&insecure=1&host=sni.jpmj.dev&fp=chrome&type=ws&allowInsecure=1&sni=sni.jpmj.dev#%40FREEV2RNG%20%C2%B3
 vless://3a6b6256-5a3d-4331-9126-c4db16dd67dc@8.6.112.0:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=cfcf.metipoxbozorg.shop&fp=chrome&type=ws&allowInsecure=0&sni=cfcf.metipoxbozorg.shop#%40FREEV2RNG%20%C2%B2
