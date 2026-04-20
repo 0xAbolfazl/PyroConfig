@@ -1,7 +1,11 @@
+ss://c664b00e-7410-4963-a911-b029928d2401@ram.greenbookvip.online:22992?mode=gun&security=reality&encryption=none&pbk=_K7LTG-QOMMaAYYW6XtVX3BHPNblhdhfCUfYVm3DDjM&fp=chrome&spx=%2F&type=grpc&sni=www.aparat.com&sid=473019#%40v2ray_phoenix
+ss://6de04a86-d013-40a0-95c0-893aa35ff674@193.162.129.155:13252?security=none&encryption=none&headerType=none&type=tcp#%40v2ray_phoenix
 ss://09a3e75a-b11e-4d18-bd91-d2ebce13f26b@me.nakhlmob.com:3530?security=none&encryption=none&headerType=none&type=tcp#%40v2ray_phoenix
 ss://549f65c5-9ac1-47dc-85f8-ea1d06eb2be6@185.143.233.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#%40v2ray_phoenix
 ss://c260ae7b-1166-46b0-8ae6-96753689a5e2@185.143.234.235:8080?path=%2F&security=none&encryption=none&host=vip.az99x.info&type=ws#%40v2ray_phoenix
 ss://5c1b9ecc-e085-443a-8c3e-804459e91700@arvancloud.ir:80?path=%40TunizoNET&security=none&encryption=none&host=dom.amirenzohost.ir&type=ws#%40v2ray_phoenix
 ss://4d631ba1-5f0e-4c78-bd27-7e0254aacb15@arvancloud.ir:80?path=%40TunizoNET&security=none&encryption=none&host=dom.amirenzohost.ir&type=ws#@Eternal_Connect
 ss://5428750a-52b1-41b2-abf6-1eb063506d5d@packetnet.vianabeauty.ir:45359?security=none&encryption=none&headerType=none&type=tcp#%40v2ray_phoenix
+ss://af812bdd-7190-4c62-84a8-10a9cc96a50d@185.143.234.120:443?path=%2F%3Fed%3D443&security=tls&encryption=none&insecure=1&host=alef.ir.oadeflantrogm.realirshop.com&fp=randomized&type=ws&allowInsecure=1&sni=alef.ir.oadeflantrogm.realirshop.com#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
+ss://5785444d-596b-425c-8b1c-727a539508d9@2.144.20.130:443?security=none&encryption=none&headerType=none&type=tcp#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
 ss://f9d9a8e6-7df0-4c7b-bb2d-97d1c7e14f1f@45.82.136.188:443?path=%2F&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=webassets.cafebazaar.ir#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
