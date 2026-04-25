@@ -1,3 +1,4 @@
+vless://60de7f07-71b7-4b37-a04c-db5d769ec130@62.60.147.73:20020?security=none&encryption=none&headerType=none&type=tcp#%40tik7net_vpn
 vless://b588b62b-c6b5-45d5-8fc1-00bc04263672@trex.nahidapp.com:443?path=%2Fvless-ws&security=tls&encryption=none&insecure=1&host=trex.nahidapp.com&fp=chrome&type=ws&allowInsecure=1&sni=trex.nahidapp.com#Psiphon-%40V2rayAlpha--14
 vless://7d4f9ad9-060e-4f12-b957-f4bdee8ed62f@new.sordo.store:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=new.sordo.store&fp=chrome&type=ws&allowInsecure=0&sni=new.sordo.store#Psiphon-%40V2rayAlpha--15
 vless://fca4a535-e638-4408-a625-0db840e33124@new.sordo.store:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=new.sordo.store&fp=chrome&type=ws&allowInsecure=0&sni=new.sordo.store#Psiphon-%40V2rayAlpha--16
@@ -137,3 +138,4 @@ vless://a2772ce5-647f-4967-835a-135ed9701422@185.143.234.235:80?path=%2F&securit
 vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&security=none&encryption=none&host=ss.oppobot.ir&type=ws#Psiphon--%40V2ray_Raha--9
 vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&security=none&encryption=none&host=ss.oppobot.ir&type=ws#Psiphon--%40V2ray_Raha--10
 vless://56c41039-532d-4360-86be-4bc7849b4dea@Snapp.ir:80?path=%2F&security=none&encryption=none&host=S1.webvps.ir&type=ws#%40v2ray_phoenix
+vless://60de7f07-71b7-4b37-a04c-db5d769ec130@62.60.147.73:20020?security=none&encryption=none&headerType=none&type=tcp#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
