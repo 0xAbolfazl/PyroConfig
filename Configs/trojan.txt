@@ -1,1 +1,2 @@
-No configs found for trojan
+trojan://humanity@8.6.112.0:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&host=www.calmloud.com&fp=chrome&type=ws&sni=www.calmloud.com#%F0%9D%99%85%F0%9D%99%8A%F0%9D%99%84%F0%9D%99%89%20%F0%9D%99%90%F0%9D%99%8E%20%7C%20TL%20%3A%20%40eldias1
+trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&insecure=1&host=www.gossipglove.com&type=ws&allowInsecure=1&sni=www.gossipglove.com#%40Mi6vpn
