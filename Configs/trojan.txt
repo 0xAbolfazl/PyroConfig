@@ -4,3 +4,12 @@ trojan://humanity@50.7.4.243:443?path=%2Fassignment&security=tls&insecure=0&host
 trojan://humanity@50.7.4.243:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B5
 trojan://humanity@50.7.4.244:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B6
 trojan://humanity@50.7.4.243:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B7
+trojan://humanity@50.7.4.243:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B5
+trojan://humanity@50.7.4.244:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B6
+trojan://humanity@50.7.4.243:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B7
+trojan://humanity@50.7.4.243:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B5
+trojan://humanity@50.7.4.244:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B6
+trojan://humanity@50.7.4.243:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B7
+trojan://humanity@50.7.4.243:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B5
+trojan://humanity@50.7.4.244:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B6
+trojan://humanity@50.7.4.243:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Channel%20id%3A%20%40tik7net_vpn%20%E2%81%B7
