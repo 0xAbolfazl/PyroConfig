@@ -1,2 +1,2 @@
-https://t.me/proxy?server=31.47.51.91&port=443&secret=ddecb813fb23747286cf9ac2ba887f627f
 https://t.me/proxy?server=65.108.50.120&port=443&secret=dd104462821249bd7ac519130220c25d09
+https://t.me/proxy?server=31.47.51.91&port=443&secret=ddecb813fb23747286cf9ac2ba887f627f#paradox5s
