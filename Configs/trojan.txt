@@ -4,4 +4,8 @@ trojan://humanity@2.144.6.222:40443?path=%2Fassignment&security=tls&insecure=0&h
 trojan://humanity@104.19.229.21:443?path=%2Fassignment&security=tls&insecure=1&host=www.creationlong.org&type=ws&allowInsecure=1&sni=www.creationlong.org#%F0%9F%8C%9F%20Psiphon--%40V2ray_Raha--8
 trojan://8r%3C%5B9%27l6hAO%238ZQi@104.19.229.21:443?path=%2Ftr&security=tls&insecure=0&host=Koma-YT.PAGeS.Dev&type=ws&allowInsecure=0&sni=Koma-YT.PAGeS.Dev#%F0%9F%8C%9F%20Psiphon--%40V2ray_Raha--10
 trojan://humanity@104.19.229.21:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#%F0%9F%8C%9F%20Psiphon--%40V2ray_Raha--11
-trojan://humanity@193.151.152.73:40443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#%40vjetvip%20%E2%9C%85%20%F0%9F%87%A9%F0%9F%87%AA%E2%9A%A1V2RY%20Psiphon%E2%9A%A1
+trojan://2Bb8zvNNJd@snappfood.ir:80?host=wsphan.q69-cloud.ir&path=%2Fmargbaaramricas&security=none&type=ws#%40proxylock
+trojan://2Bb8zvNNJd@snappfood.ir:80?host=wsphan.q69-cloud.ir&path=%2Fmargbaaramricas&security=none&type=ws#proxyking310
+trojan://2Bb8zvNNJd@snappfood.ir:80?host=wsphan.q69-cloud.ir&path=%2Fmargbaaramricas&security=none&type=ws#proxyking310
+trojan://2Bb8zvNNJd@snappfood.ir:80?path=%2Fmargbaaramricas&security=none&host=wsphan.q69-cloud.ir&type=ws#%40foced
+trojan://2Bb8zvNNJd@snappfood.ir:80?path=%2Fmargbaaramricas&security=none&host=wsphan.q69-cloud.ir&type=ws#%40foced
