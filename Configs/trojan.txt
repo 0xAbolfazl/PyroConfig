@@ -1,3 +1,5 @@
+trojan://wyV9GtIpor@188.114.97.6:443?path=%2F%3Fed%3D2048&security=tls&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=dd.aananas.ir.#%40NETMelliAnti
+trojan://r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ@172.238.120.124:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0#%F0%9F%87%A9%F0%9F%87%AA%5BChannel%20id%3A%20%40tik7net_vpn%5D%20-DE-
 trojan://kbfRcfO5S9@188.114.97.6:443?path=%2F%3Fed%3D2048&security=tls&fp=firefox&allowinsecure=0&type=ws&sni=dd.aananas.ir.#🇩🇪All⁹
 trojan://humanity@188.114.97.6:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#%40VConfing
 trojan://SoftNetConnect@77.110.119.141:8443?mode=auto&path=%2F&security=reality&pbk=8Lxmb5xpH9b2Ib-rJoLX0CBAneCbQ_d7znRZB7HTvXc&fp=chrome&spx=%2F&type=xhttp&sni=www.yahoo.com&sid=cbabf939f6c5aa71#%40v2ray_phoenix
@@ -6,6 +8,7 @@ trojan://r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ@172.238.120.124:443?security=tls&ins
 trojan://humanity@188.114.97.6:443?path=%2Fassignment&security=tls&type=ws&sni=www.creationlong.org#%40v2ray_phoenix
 trojan://humanity@104.19.229.21:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#@v2Source
 trojan://aNQNxDIiNd@188.114.97.6:443?path=%2F%3Fed%3D2048&security=tls&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=dd.aananas.ir.#%40NETMelliAnti
-trojan://Config0plus@45.130.125.0:443?path=%2Fid-tksi&security=tls&host=api24-normal.tiktokv.com.cyylr.eu.cc&type=ws&sni=api24-normal.tiktokv.com.cyylr.eu.cc#%40v2ray_phoenix
-trojan://aa710f78-eddb-45b4-bd32-1f8692a754e5@104.19.229.21:443?path=%2Fae-bo&security=tls&host=s.blibli.com.cyylr.eu.cc&type=ws&sni=s.blibli.com.cyylr.eu.cc#%40v2ray_phoenix
-trojan://humanity@188.114.96.4:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=1&type=ws&allowInsecure=1&sni=www.calmloud.com#
+trojan://A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6%3DVIM@172.237.145.189:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#%40iranmon1
+trojan://humanity@188.114.97.6:443?path=%2Fassignment&security=tls&insecure=0&type=ws&allowInsecure=0&sni=www.creationlong.org#%40
+trojan://ynf56969wk20tpuj@95.182.115.185:48029?host=&path=%2F%40Fastwayv2_bot&security=none&type=httpupgrade#V2RTOX
+trojan://humanity@188.114.97.6:443?path=%2Fassignment&security=tls&insecure=0&type=ws&allowInsecure=0&sni=www.creationlong.org#%40
