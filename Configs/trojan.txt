@@ -1,3 +1,12 @@
+trojan://humanity@104.16.72.41:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%40V2ray_Alpha%F0%9F%90%87%204
+trojan://Mitivpn@151.101.110.219:443?path=%2Fde%3Dmitivpn&security=tls&alpn=http%2F1.1&host=3-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&sni=ssl.fastly.com#%40V2rayNG_Cafe%20%F0%9F%92%A4
+trojan://MiTiVPN@45.131.4.118:443?path=%2FMiTiVPN%3DSe&security=tls&host=95r.ir&type=ws&sni=95r.ir#%40V2rayNG_Cafe%20%F0%9F%92%A4
+trojan://Mitivpn@151.101.56.6:443?path=%2Fde%3Dmitivpn&security=tls&alpn=h2&host=4-4-3-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&sni=ssl.fastly.com#%40V2rayNG_Cafe%20%F0%9F%92%A4
+trojan://Mitivpn@151.101.110.219:443?path=%2Fde&security=tls&alpn=http%2F1.1&host=3-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&sni=global.fastly.com#%40V2rayNG_Cafe%20%F0%9F%92%A4
+trojan://MiTiVPN@91.193.58.201:443?path=%2FMiTiVPN%3DNL&security=tls&alpn=http%2F1.1&host=95r.ir&fp=chrome&type=ws&sni=95r.ir#%40V2rayNG_Cafe%20%F0%9F%92%A4
+trojan://MiTiVPN@45.131.4.118:443?path=%2FMiTiVPN%3DSe&security=tls&alpn=http%2F1.1&host=95r.ir&fp=firefox&type=ws&sni=95r.ir#%40V2rayNG_Cafe%20%F0%9F%92%A4
+trojan://Mitivpn@151.101.56.6:443?path=%2Ffastly%3Dmitivpn&security=tls&alpn=http%2F1.1&host=4-4-3-mitivpn.global.ssl.fastly.net&fp=firefox&type=ws&sni=ssl.fastly.com#%40V2rayNG_Cafe%20%F0%9F%92%A4
+trojan://Mitivpn@151.101.110.219:443?path=%2Fde%3Dmitivpn&security=tls&alpn=http%2F1.1&host=3-mitivpn.global.ssl.fastly.net&fp=firefox&type=ws&sni=global.fastly.com#%40V2rayNG_Cafe%20%F0%9F%92%A4
 trojan://jZKsbuRpEB@45.130.125.2:443?path=%2Fdb&security=tls&insecure=0&host=sl.farxmode.ir&fp=firefox&type=ws&allowInsecure=0&sni=sl.farxmode.ir#Tel-%40Alpha_V2rayip%F0%9F%98%9F%201
 trojan://Mitivpn@151.101.110.219:443?path=%2Fde%3Dmitivpn&security=tls&alpn=http%2F1.1&host=3-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&sni=ssl.fastly.com#%40V2rayNG_Cafe%20%F0%9F%92%A4
 trojan://MiTiVPN@45.131.4.118:443?path=%2FMiTiVPN%3DSe&security=tls&host=95r.ir&type=ws&sni=95r.ir#%40V2rayNG_Cafe%20%F0%9F%92%A4
