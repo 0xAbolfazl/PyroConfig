@@ -1,3 +1,6 @@
+trojan://humanity@141.193.213.21:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Tel-%40ProxyMtAlpha%F0%9F%8D%94%203
+trojan://humanity@45.130.125.112:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#Tel-%40ProxyMtAlpha%F0%9F%8D%94%206
+trojan://MITIVPN@104.26.15.137:443?path=%2FMiTiVPN%3DUSA&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&insecure=0&host=us-a.App-Cloud.ir&fp=chrome&type=ws&allowInsecure=0&sni=us-a.App-Cloud.ir#Tel-%40ProxyMtAlpha%F0%9F%8D%94%208
 trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.145:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#Tel-%40Alpha_V2rayip%F0%9F%91%B9%201
 trojan://humanity@172.67.180.92:443?path=%2Fassignment&security=tls&insecure=0&host=www.multiplydose.com&fp=chrome&type=ws&allowInsecure=0&sni=www.multiplydose.com#%E2%9A%9C%EF%B8%8F%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40tik7net_vpn%20%F0%9F%87%B3%F0%9F%87%B1
 trojan://humanity@172.67.180.92:443?path=%2Fassignment&security=tls&host=www.multiplydose.com&fp=chrome&type=ws&sni=www.multiplydose.com#%40appsooner%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%F0%9F%95%8A%EF%B8%8F
@@ -23,4 +26,3 @@ trojan://MITIVPN@188.114.98.193:443?path=%2FMiTiVPN%3DDe&security=tls&alpn=http%
 trojan://MITIVPN@104.16.72.41:443?path=%2FMiTiVPN%3DDe&security=tls&alpn=http%2F1.1&insecure=0&host=De.App-Cloud.ir&fp=chrome&type=ws&allowInsecure=0&sni=De.App-Cloud.ir#%40V2ray_Alpha%F0%9F%9A%83%205
 trojan://MiTiVPN@104.16.72.101:443?path=%2FMiTiVPN%3DNL&security=tls&alpn=http%2F1.1&insecure=0&host=N--l.App-Cloud.ir&fp=chrome&type=ws&allowInsecure=0&sni=N--l.App-Cloud.ir#%40V2ray_Alpha%F0%9F%9A%83%206
 trojan://humanity@141.193.213.21:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#Tel-%40NapsterNetvIrani%F0%9F%A4%93%201
-trojan://humanity@188.114.98.0:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#Tel-%40Alpha_V2rayip%F0%9F%98%A0%202
