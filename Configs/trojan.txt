@@ -1,3 +1,4 @@
+trojan://humanity@141.193.213.21:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&host=www.calmloud.com&type=ws&sni=www.calmloud.com#%40v2ray_phoenix
 trojan://lhxmbdock4mu5lfx@144.225.65.181:443?mode=auto&path=%2F&security=reality&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=4Ve_UMg6HVoF4Iy8eraMOuSIwecQ4jJmjlA0aNHGZV4&fp=chrome&spx=%2Fq9AefYkPyQ6yh9v&type=xhttp&sni=www.sony.com&sid=ff#%40appsooner%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%F0%9F%95%8A%EF%B8%8F
 trojan://MITIVPN@104.25.193.8:443?path=%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%3DDe&security=tls&alpn=http%2F1.1&insecure=0&host=D-e.MaQror.ir&fp=chrome&type=ws&allowInsecure=0&sni=G-Dee.MaQror.ir#Tel-%40NapsterNetvIrani%F0%9F%AA%B1%202
 trojan://------------BanV2ray------------@179.237.75.217:2052?security=reality&pbk=S6Urxz22KIfwiMpEip65mTaA8JKe_d-Ocav2KXlG0lo&headerType=none&fp=firefox&spx=%2FjkzaXStK7WMwAlP&type=tcp&sni=promotion.yahoo.com&sid=4aa2#Tel-%40Alpha_V2rayip%F0%9F%91%87%201
@@ -12,15 +13,4 @@ trojan://humanity@162.159.17.189:443?path=%2Fassignment&security=tls&insecure=0&
 trojan://humanity@199.181.197.169:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.calmloud.com&type=ws&allowInsecure=0&sni=www.calmloud.com#https%3A%2F%2Ft.me%2FGGVPNHOP
 trojan://humanity@104.16.174.117:443?path=%2Fassignment&security=tls&insecure=0&type=ws&allowInsecure=0&sni=www.ignitelimit.com#https%3A%2F%2Ft.me%2FGGVPNHOP
 trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.156:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#https%3A%2F%2Ft.me%2FGGVPNHOP
-trojan://humanity@172.67.180.92:443?path=%2Fassignment&security=tls&host=www.multiplydose.com&fp=chrome&type=ws&sni=www.multiplydose.com#%40appsooner%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%F0%9F%95%8A%EF%B8%8F
-trojan://------------BanV2ray------------@179.237.75.217:51953?security=reality&pbk=S6Urxz22KIfwiMpEip65mTaA8JKe_d-Ocav2KXlG0lo&headerType=none&fp=firefox&spx=%2FsGFuSZVmSM65ohj&type=tcp&sni=promotion.yahoo.com&sid=f8e24e1c58f5#%40v2ray_phoenix
-trojan://humanity@104.18.152.246:443?security=tls&sni=www.calmloud.com&alpn=http%2F1.1&fp=chrome&allowinsecure=0&type=ws&host=www.calmloud.com&path=%2Fassignment#🇩🇪All⁵
-trojan://86957ec0-b213-433b-a43b-51f2175e0ec3@104.16.72.101:443?path=%2Fau-do&security=tls&insecure=0&host=space.byu.id.yxls.eu.cc&type=ws&allowInsecure=0&sni=space.byu.id.yxls.eu.cc#Tel-%40Alpha_V2rayip%F0%9F%98%9D%201
-trojan://humanity@165.215.250.14:443?path=%2Fassignment&security=tls&insecure=1&host=www.calmlunch.com&fp=chrome&type=ws&allowInsecure=1&sni=www.calmlunch.com#%40V2ray_Alpha%F0%9F%8D%A9%201
-trojan://humanity@165.215.250.14:443?path=%2Fassignment&security=tls&insecure=1&host=www.ignitelimit.com&fp=chrome&type=ws&allowInsecure=1&sni=www.ignitelimit.com#%40V2ray_Alpha%F0%9F%8D%A9%202
-trojan://humanity@202.37.33.80:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#%40V2ray_Alpha%F0%9F%8D%A9%204
-trojan://humanity@45.130.125.112:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#%40V2ray_Alpha%F0%9F%8D%A9%205
-trojan://humanity@45.80.111.7:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#Tel-%40NapsterNetvIrani%F0%9F%A4%93%202
-trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.149:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=185.137.157.149#Tel-%40Alpha_V2rayip%F0%9F%92%99%201
-trojan://SoftNetConnect@213.165.44.57:2087?mode=auto&path=%2F&security=reality&pbk=MDvbl1ruvtvzUK0dGetdw_5-T04ZyeTvS0qZ3SKmh0g&fp=chrome&spx=%2FTR0Ze7nnj1Hp7xF&type=xhttp&sni=s.yimg.com&sid=6693ba492b61f1#Tel-%40Alpha_V2rayip%F0%9F%92%99%202
 trojan://humanity@172.67.180.92:443?path=%2Fassignment&security=tls&host=www.multiplydose.com&fp=chrome&type=ws&sni=www.multiplydose.com#%40appsooner%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%F0%9F%95%8A%EF%B8%8F
