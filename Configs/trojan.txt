@@ -1,3 +1,6 @@
+trojan://-------%42%61%6e%56%32%72%61%79------@edededededededededededede-66.poki-pakipon.ir:36268?security=reality&sni=chi.yahoo.com&fp=firefox&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&spx=%2F&allowinsecure=0&type=grpc&mode=gun&authority=&serviceName=#🇩🇪All¹⁰
+trojan://-------BanV2ray------@179.237.75.89:36268?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#%40NETMelliAnti%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA
+trojan://-------%42%61%6e%56%32%72%61%79------@edededededededededededede-66.poki-pakipon.ir:36268?security=reality&sni=chi.yahoo.com&fp=firefox&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&spx=%2F&allowinsecure=0&type=grpc&mode=gun&authority=&serviceName=#🇩🇪All¹⁰
 trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.145:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#V2ray_Alpha%F0%9F%AB%91%2011
 trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.138:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#V2ray_Alpha%F0%9F%AB%91%2012
 trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.138:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#Tel-%40ProxyMtAlpha%F0%9F%A5%AC%207
@@ -15,8 +18,3 @@ trojan://humanity@45.130.125.112:443?path=%2Fassignment&security=tls&insecure=0&
 trojan://humanity@162.159.38.119:443?path=%2Fassignment&security=tls&insecure=0&host=www.gossipglove.com&type=ws&allowInsecure=0&sni=www.gossipglove.com#V2ray_Alpha%F0%9F%A7%B1%204
 trojan://humanity@162.159.38.119:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#V2ray_Alpha%F0%9F%A7%B1%205
 trojan://humanity@162.159.38.119:443?path=%2Fassignment&security=tls&insecure=0&host=www.gossipglove.com&type=ws&allowInsecure=0&sni=www.gossipglove.com#V2ray_Alpha%F0%9F%A7%B1%206
-trojan://humanity@185.18.250.252:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#Tel-%40ProxyMtAlpha%F0%9F%9A%82%203
-trojan://humanity@www.calmlunch.com:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#Tel-%40ProxyMtAlpha%F0%9F%9A%82%204
-trojan://humanity@104.17.111.8:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&fp=chrome&type=ws&allowInsecure=0&sni=www.ignitelimit.com#%40V2rayN5
-trojan://MITIVPN@188.114.97.6:443?path=%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%3Dwin---usa&security=tls&alpn=http%2F1.1&host=8jidkdj282-2ododvb-28.App-ClouD.Ir&fp=chrome&type=ws&sni=9bvv292-28bv3v-3j82vvb-jkk282-8bvc2.App-ClouD.Ir#%40v2ray_phoenix
-trojan://humanity@104.17.111.8:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&fp=chrome&type=ws&allowInsecure=0&sni=www.ignitelimit.com#Tel-%40ProxyMtAlpha%F0%9F%AB%91%206
