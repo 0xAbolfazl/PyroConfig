@@ -1,3 +1,5 @@
+trojan://----------------%42%61%6e%56%32%72%61%79---------------@mmmmmmmmmmmmmmmm-11111111111111111111111.poki-pakipon.ir:43321?security=reality&sni=yahoo.com&fp=chrome&pbk=Ejz8wh4L9i-00CFgu_A9Ng4aW3WBcewIHeo85p95Cns&sid=95f1&allowinsecure=1&type=grpc&mode=gun&authority=&serviceName=#🇩🇪All⁶
+trojan://-------------%42%61%6e%56%32%72%61%79--------------@oooooooooooooooo-00000000000000000.poki-pakipon.ir:47139?security=reality&sni=yahoo.com&fp=chrome&pbk=2T8W7086SiTW3viiVVNeZCTZjiJ-d8f6LsSSJZ_iM2o&sid=6239&allowinsecure=1&type=grpc&mode=gun&authority=&serviceName=#🇩🇪All⁹
 trojan://humanity@162.159.38.119:443?path=%2Fassignment&security=tls&insecure=0&host=www.gossipglove.com&type=ws&allowInsecure=0&sni=www.gossipglove.com#Tel-%40ProxyMtAlpha%E2%99%A8%EF%B8%8F%204
 trojan://------%42%61%6e%56%32%72%61%79-------@oooooooooooooooo-00000000000000000.poki-pakipon.ir:11332?security=reality&sni=yahoo.com&fp=chrome&pbk=nGBHollHWJxqRwTVBgsdU0DZZLVHexdntltRKyYNax4&sid=b9c6f2d116&allowinsecure=1&type=grpc&mode=gun&authority=&serviceName=#🇩🇪All¹²
 trojan://------BanV2ray-------@oooooooooooooooo-00000000000000000.poki-pakipon.ir:57711?mode=gun&security=reality&pbk=nGBHollHWJxqRwTVBgsdU0DZZLVHexdntltRKyYNax4&fp=chrome&type=grpc&sni=yahoo.com#%40v2ray_phoenix
@@ -6,20 +8,3 @@ trojan://------BanV2ray-------@oooooooooooooooo-00000000000000000.poki-pakipon.i
 trojan://------BanV2ray-------@oooooooooooooooo-00000000000000000.poki-pakipon.ir:11332?mode=gun&security=reality&pbk=nGBHollHWJxqRwTVBgsdU0DZZLVHexdntltRKyYNax4&fp=chrome&type=grpc&sni=yahoo.com&sid=b9c6f2d116#%40v2ray_phoenix
 trojan://humanity@45.130.125.112:443?allowInsecure=0&sni=www.calmlunch.com&insecure=0&security=tls&fp=chrome&type=ws&path=%2Fassignment#%F0%9F%9A%A9SERDNS%20VIP~
 trojan://humanity@45.130.125.112:443?sni=www.calmlunch.com&security=tls&fp=chrome&allowInsecure=0&type=ws&insecure=0&path=%2Fassignment#%F0%9F%9A%A9SERDNS%20VIP~
-trojan://humanity@188.114.96.3:443?sni=www.multiplydose.com&type=ws&security=tls&allowInsecure=0&fp=chrome&insecure=0&path=%2Fassignment#%F0%9F%9A%A9SERDNS%20VIP
-trojan://humanity@45.130.125.112:443?sni=www.calmlunch.com&type=ws&security=tls&allowInsecure=0&fp=chrome&insecure=0&path=%2Fassignment#%F0%9F%9A%A9SERDNS%20VIP~
-trojan://NQ26071394@89.39.70.85:443?security=tls&sni=grateful-bedbug.rooster465.autos&fp=chrome&allowinsecure=0&type=tcp&headerType=none#🇩🇪All⁵
-trojan://humanity@162.159.38.119:443?path=%2Fassignment&security=tls&insecure=0&host=www.gossipglove.com&type=ws&allowInsecure=0&sni=www.gossipglove.com#V2ray_Alpha%F0%9F%A5%94%202
-trojan://humanity@202.37.33.80:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#V2ray_Alpha%F0%9F%A5%94%205
-trojan://humanity@202.37.33.80:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#V2ray_Alpha%F0%9F%A5%94%207
-trojan://humanity@202.37.33.80:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#V2ray_Alpha%F0%9F%A5%94%208
-trojan://humanity@162.159.38.119:443?path=%2Fassignment&security=tls&insecure=0&host=www.gossipglove.com&type=ws&allowInsecure=0&sni=www.gossipglove.com#V2ray_Alpha%F0%9F%A5%94%209
-trojan://humanity@165.215.250.14:443?path=%2Fassignment&security=tls&insecure=1&host=www.ignitelimit.com&fp=chrome&type=ws&allowInsecure=1&sni=www.ignitelimit.com#V2ray_Alpha%F0%9F%A5%94%2010
-trojan://-------BanV2ray------@179.237.75.89:36268?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#%F0%9F%92%90%20%40VConfing
-trojan://humanity@188.114.96.3:443?fp=chrome&sni=www.multiplydose.com&insecure=0&allowInsecure=0&path=%2Fassignment&security=tls&type=ws#%F0%9F%9A%A9SERDNS%20VIP
-trojan://humanity@45.130.125.112:443?fp=chrome&sni=www.calmlunch.com&insecure=0&allowInsecure=0&path=%2Fassignment&security=tls&type=ws#%F0%9F%9A%A9SERDNS%20VIP~
-trojan://NQ26071394@89.39.70.85:443?security=tls&sni=grateful-bedbug.rooster465.autos&fp=chrome&allowinsecure=0&type=tcp&headerType=none#🇩🇪All⁵
-trojan://humanity@188.114.96.3:443?type=ws&allowInsecure=0&security=tls&fp=chrome&sni=www.multiplydose.com&insecure=0&path=%2Fassignment#%F0%9F%9A%A9SERDNS%20VIP
-trojan://humanity@45.130.125.112:443?type=ws&allowInsecure=0&security=tls&fp=chrome&sni=www.calmlunch.com&insecure=0&path=%2Fassignment#%F0%9F%9A%A9SERDNS%20VIP~
-trojan://humanity@188.114.96.3:443?fp=chrome&allowInsecure=0&sni=www.multiplydose.com&insecure=0&security=tls&path=%2Fassignment&type=ws#%F0%9F%9A%A9SERDNS%20VIP
-trojan://humanity@45.130.125.112:443?fp=chrome&allowInsecure=0&sni=www.calmlunch.com&insecure=0&security=tls&path=%2Fassignment&type=ws#%F0%9F%9A%A9SERDNS%20VIP~
