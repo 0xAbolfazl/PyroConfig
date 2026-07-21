@@ -1,3 +1,4 @@
+trojan://humanity@162.159.38.119:443?path=%2Fassignment&security=tls&insecure=0&host=www.gossipglove.com&type=ws&allowInsecure=0&sni=www.gossipglove.com#Tel-%40ProxyMtAlpha%E2%99%A8%EF%B8%8F%204
 trojan://------%42%61%6e%56%32%72%61%79-------@oooooooooooooooo-00000000000000000.poki-pakipon.ir:11332?security=reality&sni=yahoo.com&fp=chrome&pbk=nGBHollHWJxqRwTVBgsdU0DZZLVHexdntltRKyYNax4&sid=b9c6f2d116&allowinsecure=1&type=grpc&mode=gun&authority=&serviceName=#🇩🇪All¹²
 trojan://------BanV2ray-------@oooooooooooooooo-00000000000000000.poki-pakipon.ir:57711?mode=gun&security=reality&pbk=nGBHollHWJxqRwTVBgsdU0DZZLVHexdntltRKyYNax4&fp=chrome&type=grpc&sni=yahoo.com#%40v2ray_phoenix
 trojan://------BanV2ray-------@oooooooooooooooo-00000000000000000.poki-pakipon.ir:55500?mode=gun&security=reality&pbk=nGBHollHWJxqRwTVBgsdU0DZZLVHexdntltRKyYNax4&fp=chrome&type=grpc&sni=yahoo.com&sid=534a35e1#%40v2ray_phoenix
@@ -22,17 +23,3 @@ trojan://humanity@188.114.96.3:443?type=ws&allowInsecure=0&security=tls&fp=chrom
 trojan://humanity@45.130.125.112:443?type=ws&allowInsecure=0&security=tls&fp=chrome&sni=www.calmlunch.com&insecure=0&path=%2Fassignment#%F0%9F%9A%A9SERDNS%20VIP~
 trojan://humanity@188.114.96.3:443?fp=chrome&allowInsecure=0&sni=www.multiplydose.com&insecure=0&security=tls&path=%2Fassignment&type=ws#%F0%9F%9A%A9SERDNS%20VIP
 trojan://humanity@45.130.125.112:443?fp=chrome&allowInsecure=0&sni=www.calmlunch.com&insecure=0&security=tls&path=%2Fassignment&type=ws#%F0%9F%9A%A9SERDNS%20VIP~
-trojan://NQ26071394@89.39.70.143:443?security=tls&headerType=none&fp=chrome&type=tcp&sni=thorough-falcon.rooster465.autos#%40v2ray_phoenix
-trojan://humanity@188.114.96.3:443?sni=www.multiplydose.com&path=%2Fassignment&allowInsecure=0&insecure=0&type=ws&security=tls&fp=chrome#%F0%9F%9A%A9SERDNS%20VIP
-trojan://humanity@188.114.96.3:443?type=ws&insecure=0&fp=chrome&allowInsecure=0&security=tls&path=%2Fassignment&sni=www.multiplydose.com#%F0%9F%9A%A9SERDNS%20VIP
-trojan://humanity@45.130.125.112:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#Tel-%40ProxyMtAlpha%F0%9F%90%8F%204
-trojan://humanity@202.37.33.80:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#Tel-%40ProxyMtAlpha%F0%9F%90%8F%205
-trojan://f9beeb440fb77af@ht.configfast.site:59618?security=reality&pbk=lp1cRucvXUqOC1DpCMWnbs_MWGHIB41eiP6JUJuiGCo&headerType=none&fp=firefox&spx=%2FFLPXR0ZdoH1ame6&type=tcp&sni=google.com&sid=e3916e0f2c8b438b#Tel-%40ProxyMtAlpha%F0%9F%A5%A5%201
-trojan://b5656155c1a536c@ht.configfast.site:59618?security=reality&pbk=lp1cRucvXUqOC1DpCMWnbs_MWGHIB41eiP6JUJuiGCo&headerType=none&fp=firefox&spx=%2Fz4mLYk7x66Y968n&type=tcp&sni=google.com&sid=019dd851#Tel-%40ProxyMtAlpha%F0%9F%A5%A5%202
-trojan://945e95adf7115ef@ht.configfast.site:59618?security=reality&pbk=lp1cRucvXUqOC1DpCMWnbs_MWGHIB41eiP6JUJuiGCo&headerType=none&fp=firefox&spx=%2FtjjwnHCs6nfZltM&type=tcp&sni=google.com&sid=b2689a#Tel-%40ProxyMtAlpha%F0%9F%A5%A5%203
-trojan://5fdbc5336f81ee6@ht.configfast.site:59618?security=reality&pbk=lp1cRucvXUqOC1DpCMWnbs_MWGHIB41eiP6JUJuiGCo&headerType=none&fp=firefox&spx=%2FkkHKlZ6g728LTCS&type=tcp&sni=google.com&sid=e3916e0f2c8b438b#Tel-%40ProxyMtAlpha%F0%9F%A5%A5%204
-trojan://b5656155c1a536c@ifo.configfast.site:58900?security=reality&pbk=lp1cRucvXUqOC1DpCMWnbs_MWGHIB41eiP6JUJuiGCo&headerType=none&fp=firefox&spx=%2FnqySyHzE1tBT7X0&type=tcp&sni=google.com&sid=44b7794788ed#Tel-%40ProxyMtAlpha%F0%9F%A5%A5%205
-trojan://6a2657e5dbaabb6@ifo.configfast.site:58900?security=reality&pbk=lp1cRucvXUqOC1DpCMWnbs_MWGHIB41eiP6JUJuiGCo&headerType=none&fp=firefox&spx=%2FHpCW8MeFr3htWPb&type=tcp&sni=google.com&sid=a508b9ff13ba7e#Tel-%40ProxyMtAlpha%F0%9F%A5%A5%207
-trojan://945e95adf7115ef@ifo.configfast.site:58900?security=reality&pbk=lp1cRucvXUqOC1DpCMWnbs_MWGHIB41eiP6JUJuiGCo&headerType=none&fp=firefox&spx=%2FvyIX7baeTQmH2hI&type=tcp&sni=google.com&sid=019dd851#Tel-%40ProxyMtAlpha%F0%9F%A5%A5%209
-trojan://5fdbc5336f81ee6@ifo.configfast.site:58900?security=reality&pbk=lp1cRucvXUqOC1DpCMWnbs_MWGHIB41eiP6JUJuiGCo&headerType=none&fp=firefox&spx=%2F0UNjo9OgW168Me8&type=tcp&sni=google.com&sid=08c8f4b33c#Tel-%40ProxyMtAlpha%F0%9F%A5%A5%2011
-trojan://humanity@202.37.33.80:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#V2ray_Alpha%F0%9F%A6%92%207
