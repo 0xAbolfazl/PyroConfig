@@ -1,3 +1,5 @@
+trojan://---------%42%61%6e%56%32%72%61%79---------@179.237.74.104:3611?security=reality&sni=world.yahoo.com%3A443&fp=firefox&pbk=STMSSr7TuNNj8icCvugzrXFg_OCQz7EinmUnSl8__yE&sid=a385e5ea&spx=%2F69fd01d52663d39&allowinsecure=1&type=grpc&mode=gun&authority=&serviceName=#🇩🇪All³
+trojan://------------%42%61%6e%56%32%72%61%79-----------@37.156.45.60:4384?security=reality&sni=world.yahoo.com%3A443&fp=firefox&pbk=TbFPp3kXrmos-f7Cfpm21TZcFtAEJwsF_G9CABhIlUc&sid=fc1849f57be0&spx=%2F4de517c4e954d88&allowinsecure=1&type=grpc&mode=gun&authority=&serviceName=#🇩🇪All⁵
 trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.multiplydose.com#V2ray_Alpha%F0%9F%8C%90%205
 trojan://humanity@185.18.250.252:443?path=%2Fassignment&security=tls&insecure=0&host=www.multiplydose.com&fp=chrome&type=ws&allowInsecure=0&sni=www.multiplydose.com#V2ray_Alpha%F0%9F%8C%90%206
 trojan://humanity@www.ignitelimit.com:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.ignitelimit.com#V2ray_Alpha%F0%9F%8C%90%207
