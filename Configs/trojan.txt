@@ -1,3 +1,16 @@
+trojan://521314@104.248.160.220:443?allowInsecure=0&host=tjplay.lxdxo.kdns.fr&sni=tjplay.lxdxo.kdns.fr&type=ws&insecure=0&security=tls&path=%2F#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://521314@104.248.160.220:443?security=tls&insecure=0&path=%2F&host=tjplay.lxdxo.kdns.fr&sni=tjplay.lxdxo.kdns.fr&type=ws&allowInsecure=0#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://521314@104.248.160.220:443?path=%2F&host=tjplay.lxdxo.kdns.fr&sni=tjplay.lxdxo.kdns.fr&security=tls&allowInsecure=0&type=ws&insecure=0#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://humanity@188.114.97.6:443?type=ws&allowInsecure=0&path=%2Fassignment&insecure=0&host=www.calmloud.com&sni=www.calmloud.com&security=tls#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://IQ68037294@pl.levikogjgfdd.ir:443?type=tcp&allowInsecure=0&fp=chrome&insecure=0&headerType=none&sni=optimal-urchin.rooster465.autos&security=tls#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://521314@104.248.160.220:443?type=ws&allowInsecure=0&path=%2F&insecure=0&host=tjplay.lxdxo.kdns.fr&sni=tjplay.lxdxo.kdns.fr&security=tls#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://humanity@188.114.97.6:443?type=ws&allowInsecure=0&path=%2Fassignment&insecure=0&host=www.calmloud.com&sni=www.calmloud.com&security=tls#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://IQ68037294@pl.levikogjgfdd.ir:443?type=tcp&allowInsecure=0&fp=chrome&insecure=0&headerType=none&sni=optimal-urchin.rooster465.autos&security=tls#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://521314@104.248.160.220:443?type=ws&allowInsecure=0&path=%2F&insecure=0&host=tjplay.lxdxo.kdns.fr&sni=tjplay.lxdxo.kdns.fr&security=tls#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://humanity@www.gossipglove.com:443?path=%2Fassignment&security=tls&fp=chrome&type=ws&allowInsecure=0&insecure=0&sni=www.gossipglove.com#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://humanity@188.114.97.6:443?path=%2Fassignment&security=tls&type=ws&allowInsecure=0&insecure=0&host=www.calmloud.com&sni=www.calmloud.com#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://IQ68037294@pl.levikogjgfdd.ir:443?headerType=none&security=tls&fp=chrome&type=tcp&allowInsecure=0&insecure=0&sni=optimal-urchin.rooster465.autos#%F0%9F%9A%A9SERDNS%20VIP~
+trojan://521314@104.248.160.220:443?path=%2F&security=tls&type=ws&allowInsecure=0&insecure=0&host=tjplay.lxdxo.kdns.fr&sni=tjplay.lxdxo.kdns.fr#%F0%9F%9A%A9SERDNS%20VIP~
 trojan://Tel-%40ProxyMtAlpha%F0%9F%AA%85%2010@104.18.16.56:443?mode=stream-one&path=%2Fconfig&security=tls&insecure=0&host=bvck-oizksj-swin-usje-&type=xhttp&allowInsecure=0&sni=ww.gameserver.de5.net#%F0%9F%87%A9%F0%9F%87%AAAll%C2%B3%20%7C%20%40BigSmoke_Config
 trojan://humanity@162.159.38.119:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#V2ray_Alpha%F0%9F%95%B6%EF%B8%8F%204
 trojan://humanity@www.gossipglove.com:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.gossipglove.com#Tel-%40ProxyMtAlpha%F0%9F%8E%8A%207
