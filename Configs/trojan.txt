@@ -1,3 +1,8 @@
+trojan://Tel-%40ProxyMtAlpha%F0%9F%AA%85%2010@104.18.16.56:443?mode=stream-one&path=%2Fconfig&security=tls&insecure=0&host=bvck-oizksj-swin-usje-&type=xhttp&allowInsecure=0&sni=ww.gameserver.de5.net#%F0%9F%87%A9%F0%9F%87%AAAll%C2%B3%20%7C%20%40BigSmoke_Config
+trojan://humanity@162.159.38.119:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#V2ray_Alpha%F0%9F%95%B6%EF%B8%8F%204
+trojan://humanity@www.gossipglove.com:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.gossipglove.com#Tel-%40ProxyMtAlpha%F0%9F%8E%8A%207
+trojan://humanity@202.37.33.80:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#V2ray_Alpha%F0%9F%A5%8A%205
+trojan://humanity@162.159.38.119:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#V2ray_Alpha%F0%9F%A5%8A%206
 trojan://humanity@www.gossipglove.com:443?type=ws&path=%2Fassignment&fp=chrome&security=tls&allowInsecure=0&sni=www.gossipglove.com&insecure=0#%F0%9F%9A%A9SERDNS%20VIP~
 trojan://humanity@www.gossipglove.com:443?path=%2Fassignment&security=tls&sni=www.gossipglove.com&insecure=0&type=ws&fp=chrome&allowInsecure=0#%F0%9F%9A%A9SERDNS%20VIP~
 trojan://RTp%242utwQ4wVakOd@104.21.22.152:2087?alpn=http%2F1.1&type=ws&path=%2Ftr%2FlinZzuLVoscs9KMJB01i7MH&sni=b22nTzaJTaFVKeW6em2th68a6030-oGU.HiRAD228.WorkERs.Dev&security=tls&insecure=0&allowInsecure=0&host=b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev#%F0%9F%9A%A9SERDNS%20VIP~
