@@ -1,3 +1,8 @@
+ss://29ca503d-e6b8-4509-b666-48133f450857@millionaire.levikogjgfdd.ir:443?encryption=none&type=ws&security=tls&path=%2Ffdip&host=learn00.evany.de5.net&sni=learn00.evany.de5.net&insecure=0&allowInsecure=0#Our%20Channel%20%E2%87%A8%20v2rayfreedaily
+ss://8a88edf2-235a-4e74-a012-315e8b0f000c@www.speedtest.net:8443?encryption=none&type=ws&security=tls&path=%2F&host=oknoloy.dearhossein-taktaz.ir&sni=oknoloy.dearhossein-taktaz.ir&fp=chrome&insecure=0&allowInsecure=0#Our%20Channel%20%E2%87%A8%20v2rayfreedaily
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphQmxxZGZEdjFhVGIya2xy@4.210.66.171:443#Our%20Channel%20%E2%87%A8%20v2rayfreedaily
+ss://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?encryption=none&type=ws&security=tls&path=%2Ffdip&host=learn00.evany.de5.net&sni=learn00.evany.de5.net&insecure=0&allowInsecure=0#Our%20Channel%20%E2%87%A8%20v2rayfreedaily
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyWWZpNGNRM3o3enRzN0JPNC1ZOV9B@188.41.249.20:1080#Our%20Channel%20%E2%87%A8%20v2rayfreedaily
 ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@it1.levikogjgfdd.ir:8880?mode=gun&security=none&encryption=none&type=grpc#%F0%9F%92%90%20%40VConfing
 ss://e911c552-3a98-41e0-b5fb-0dd3879887b7@162.159.38.119:443?path=%2Fapi%2Fv1%2Firc&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=vod.ensf.top&type=ws&allowInsecure=0&sni=vod.ensf.top#%F0%9F%92%90%20%40VConfing
 ss://17d29827-7cf1-4115-b40d-548e10ec355d@ua1.levikogjgfdd.ir:40443?security=reality&encryption=none&pbk=bjOGTQ4xsiFbyCPM_WzoK53L130rW5vZJtuYDJx_pkM&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=aa3c#%F0%9F%92%90%20%40VConfing
