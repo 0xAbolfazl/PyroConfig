@@ -1,1 +1,2 @@
+trojan://humanity@www.calmlunch.com:443?security=tls&sni=www.calmlunch.com&allowinsecure=0&type=ws&host=www.calmlunch.com&path=%2Fassignment#🇩🇪All⁵
 trojan://humanity@104.19.229.21:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#Tel-%40ProxyMtAlpha%F0%9F%A5%B55
