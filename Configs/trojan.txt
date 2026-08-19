@@ -5,5 +5,3 @@ trojan://bptHV5U91mWneB61rRKhCQ8f@87.121.218.169:443?security=tls&insecure=0&hea
 trojan://AE62539071@13.193.221.67:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=main-impala.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5Ettehadvpn%20%7C%2011
 trojan://humanity@www.calmlunch.com:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%A8%F0%9F%87%A6Ettehadvpn%20%7C%2014
 trojan://sbp4kLxhRM@185.126.236.186:443?security=reality&pbk=7ssv-EPWLhGKofQVdLqm1x87BRmPYfgRlMFwQCb8D2c&headerType=none&fp=chrome&type=tcp&sni=amp-api-edge.apps.apple.com#%F0%9F%87%A6%F0%9F%87%B9Ettehadvpn%20%7C%2015
-trojan://SEYnpOitNLndBhDtkZyeAShl@nl-vk.tkbvpcompany.site:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=nl-vk.tkbvpcompany.site#%40V2ray_Alpha%F0%9F%90%8C%203
-trojan://AE62539071@13.158.135.118:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=literate-cow.rooster465.autos#%40V2ray_Alpha%F0%9F%90%8C%208
