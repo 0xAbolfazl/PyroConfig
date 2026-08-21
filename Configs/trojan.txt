@@ -1,1 +1,4 @@
-No configs found for trojan
+trojan://PQ05174892@34.244.253.42:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=nice-elephant.rooster465.autos#%E2%9A%9C%EF%B8%8F%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40tik7net_vpn
+trojan://FH72359861@89.39.70.120:443/?type=tcp&security=tls&sni=pro-crane.rooster465.autos#channel_%40networld_vpn
+trojan://3ccbd6a4-bb95-4a93-bf7a-ad4a0bde9054@MAILGateWAy7-baSeSTREaM3-pORTNOdEHub9.clOUDsYNC9.Com:443?path=%2FJqME6Sln1BgoYh8&security=tls&alpn=http%2F1.1&insecure=0&host=NoDeLiNkBase7-ApiwebStREam3-DatacOREnET.CLoUdSYNC9.cOM&fp=chrome&type=ws&allowInsecure=0&sni=nodelInKBasE7-aPIWebStrEam3-DaTAcOrENET.cloUdsYNc9.com#CDM%20tls%20%40NETMelliAnti
+trojan://MiTiVPN@140.248.185.253:443?path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fs-w%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&security=tls&alpn=http%2F1.1&host=4-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&sni=ssl.fastly.com#%40v2ray_phoenix
