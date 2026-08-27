@@ -1,2 +1,1 @@
-trojan://humanity@130.250.137.171:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#Ettehadvpn%20%7C%205
-trojan://humanity@45.80.111.7:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#Ettehadvpn%20%7C%2011
+trojan://fogxhe0ouv4h6w69@hayabusa.proxy.rlwy.net:25073?path=%2F&security=none&type=ws#x3ui-test
