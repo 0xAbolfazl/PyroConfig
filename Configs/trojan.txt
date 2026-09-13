@@ -1,3 +1,4 @@
+trojan://humanity@216.24.57.7:443?path=%2Fassignment&security=tls&insecure=0&type=ws&allowInsecure=0&sni=www.ignitelimit.com#%40V2ray_Alpha%F0%9F%90%A3%202
 trojan://MiTiVPN@199.232.78.101:443?path=---%40bored_vpn&security=tls&alpn=http%2F1.1&host=mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net&fp=chrome&type=ws&sni=ssl.fastly.com#%40v2ray_phoenix
 trojan://MiTiVPN@167.82.76.7:443?path=%40bored_vpn&security=tls&alpn=http%2F1.1&host=mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net&fp=chrome&type=ws&sni=ssl.fastly.com#%40v2ray_phoenix
 trojan://MiTiVPN@199.232.78.160:443?path=%40bored_vpn&security=tls&alpn=http%2F1.1&host=mitivpn---ss--s---mitivpn-44.global.ssl.fastly.net&fp=firefox&type=ws&sni=ssl.fastly.com#%40v2ray_phoenix
